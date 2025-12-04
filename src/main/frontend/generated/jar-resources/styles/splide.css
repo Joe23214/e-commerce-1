@@ -1,0 +1,57 @@
+.vcfsplide [id^="main-slider"] {
+	padding: 1rem 2rem;
+}
+
+.vcfsplide [id^="thumbnails-slider"] #thumbnails-track {
+	margin: 0 2rem;
+}
+
+.vcfsplide [id^="thumbnails-slider"] .splide__arrow--prev {
+	left: -0.5em;
+}
+
+.vcfsplide [id^="thumbnails-slider"] .splide__arrow--next {
+	right: -0.5em;
+}
+
+.vcfsplide.lightbox [id^="thumbnails-slider"] .splide__arrow--prev {
+	left: 0;
+}
+
+.vcfsplide.lightbox [id^="thumbnails-slider"] .splide__arrow--next {
+	right: 0;
+}
+
+.vcfsplide.lightbox [id^="main-slider"] {
+  background-size: contain !important;
+}
+
+.vcfsplide.true-size [id^="main-slider"] {
+  background-size: contain !important;
+}
+
+.lightbox {
+  position: fixed; 
+  z-index: 1000; 
+  left: 0;
+  top: 0; 
+  overflow: hidden; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8); 
+  display: block;
+}
+
+.lightbox_close {
+  color: #aaa;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.lightbox_close:hover,
+.lightbox_close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

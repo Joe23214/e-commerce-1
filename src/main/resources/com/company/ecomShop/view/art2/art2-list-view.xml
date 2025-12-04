@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://art2ListView.title"
+      focusComponent="art2sDataGrid">
+    <data>
+        <collection id="art2sDc"
+                    class="com.company.ecomShop.entity.Art2">
+            <fetchPlan extends="_base"/>
+            <loader id="art2sDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from Art2 e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="art2sDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createButton" action="art2sDataGrid.create"/>
+            <button id="editButton" action="art2sDataGrid.edit"/>
+            <button id="removeButton" action="art2sDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="art2sDl"/>
+        </hbox>
+        <dataGrid id="art2sDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="art2sDc"
+                  columnReorderingAllowed="true">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns resizable="true">
+                <column property="id.codBarFor"/>
+                <column property="id.codiceArticolo"/>
+                <column property="id.flagBF"/>
+                <column property="coefficiente"/>
+                <column property="createTs"/>
+                <column property="createdBy"/>
+                <column property="descrBarre"/>
+                <column property="fornitore"/>
+                <column property="percPrezzoConf"/>
+                <column property="prezzo"/>
+                <column property="prezzoConfezione"/>
+                <column property="tipoPeso"/>
+                <column property="updateTs"/>
+                <column property="updatedBy"/>
+                <column property="version"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectButton" action="selectAction"/>
+            <button id="discardButton" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

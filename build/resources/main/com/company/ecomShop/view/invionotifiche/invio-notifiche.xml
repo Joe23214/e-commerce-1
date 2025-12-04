@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://invioNotifiche.title">
+<data>
+    <instance id="ArtDc" class="com.company.ecomShop.entity.Art"></instance>
+    <instance id="Art2Dc" class="com.company.ecomShop.entity.Art2"></instance>
+</data>
+    <layout spacing="true" padding="true">
+
+        <h1 alignSelf="CENTER" text="Invio Notifiche" classNames="text-xl font-bold mb-l"/>
+
+        <textField id="titleField"
+                   label="Titolo notifica"
+                   required="true"
+                   width="100%"/>
+
+        <textArea id="messageField"
+                  label="Messaggio"
+                  required="true"
+                  width="100%"
+                 />
+        <hbox id="tipoRicercaArea" visible="false">
+            <radioButtonGroup id="tipoRicercaGroup"
+                              label="Tipo di ricerca"
+                              required="true"
+                              width="100%"/>
+        </hbox>
+
+        <hbox alignItems="CENTER" alignSelf="CENTER" id="ricercaInternoArea" visible="false">
+            <textField id="ricercaInterno" classNames="mr-xl" label="Codice interno" readOnly="true"/>
+            <button id="CercaInterno" classNames="mt-xl" text="Cerca"/>
+            <textField id="descrInterno" label="msg://Descrizione:" readOnly="true" classNames="ml-m text-s italic text-gray-600"/>
+        </hbox>
+
+        <hbox alignItems="CENTER" alignSelf="CENTER" id="ricercaCodArea" visible="false">
+            <textField id="ricercaCod" classNames="mr-xl" label="Codice a barre" readOnly="true"/>
+            <button  id="CercaCod" classNames="mt-xl" text="Cerca"/>
+            <textField label="msg://Descrizione:" id="descrCod" readOnly="true" classNames="ml-m text-s italic text-gray-600"/>
+        </hbox>
+        <comboBox id="redirectViewSelect"
+                  label="Pagina di destinazione (redirect)"
+                  required="true"
+                  width="100%"/>
+
+        <button id="sendButton"
+                text="📨 Invia Notifica"
+                themeNames="primary large success"
+                classNames="mt-l"/>
+
+        <button alignSelf="CENTER" id="Home" text="msg://Vai alla Home"  css="background-color: #5abd84; color:white;" ></button>
+
+
+    </layout>
+</view>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view" xmlns:search="http://jmix.io/schema/search/ui"
+      title="msg://com.company.ecomShop.view.provaui/provaui.title">
+
+    <data>
+        <!--        <collection id="artsDc"-->
+        <!--                    class="com.company.jmixprogettostudio.entity.Art">-->
+        <!--            <fetchPlan extends="_base"/>-->
+        <!--            <loader id="artsDl" readOnly="true" maxResults="3">-->
+        <!--                <query>-->
+        <!--                    <![CDATA[-->
+        <!--                        select e from Art e-->
+        <!--                        where lower(e.descrizione) like lower(:searchText)-->
+        <!--                        order by e.descrizione-->
+        <!--                    ]]>-->
+        <!--                </query>-->
+        <!--            </loader>-->
+        <!--        </collection>-->
+
+
+
+        <collection id="articoliClassificazionisDc"
+                    class="com.company.ecomShop.entity.ArticoliClassificazioni">
+            <loader id="articoliClassificazionisDl" readOnly="true"/>
+        </collection>
+
+
+
+    </data>
+
+    <actions>
+        <action id="scrollLeft"/>
+        <action id="scrollRight"/>
+    </actions>
+
+    <layout>
+        <!-- Layout principale -->
+
+        <!--        <p  alignSelf="CENTER"  text="msg:// listino 3 : sono i prezzi compreso iva a cartone . Listino 2 : sono i prezzi compreso iva per ordini di minimo 10 cartoni . ( questo quando si fa accesso per partita iva)"/>-->
+        <vbox id="primaPagina">
+            <div id="header" classNames="header">
+                <div classNames="navigazione">
+                    <!-- Contenitore del logo -->
+                    <div classNames="contenitoreLogo">
+                        <image id="logo" classNames="logo"  />
+                    </div>
+
+                    <!-- Barra di ricerca -->
+                    <div id="searchBox" classNames="searchBox">
+                        <textField id="searchField" css="font-size : 16px;" width="100%" classNames="searchField" placeholder="Cerca..." autofocus="false" maxWidth="50%"
+                                   trimEnabled="false"/>
+                        <button id="tuttiProdotti" text="msg://Tutti i Prodotti" classNames="bottoneRegistrati" autofocus="true"/>
+                        <div id="suggestionsBox" classNames="suggestionsBox hidden" width="800ppx" height="500px">
+                            <div classNames="suggestion-item">
+
+                            </div>
+                        </div>
+
+                        <!-- Risultati della ricerca -->
+
+
+                    </div>
+                    <hbox id="datiUtente" classNames="datiUtente">
+
+                    </hbox>
+
+                    <button id="menuToggle" visible="false" classNames="authButtons" text="☰"/>
+
+                    <!-- Pulsanti Accedi e Registrati -->
+                    <div id="authButton" classNames="authButtons">
+                        <button id="logOut" text="msg://Log Out" classNames="authButton"/>
+                        <button id="accedi" text="msg://Accedi" classNames="authButton"/>
+                        <button id="registrati" text="msg://Registrati" classNames="authButton"/>
+                        <button  id="Home" text="msg://Home" classNames="authButton"/>
+                        <!--                    <button text="msg://About" classNames="authButton"/>-->
+                        <hbox width="100%" id="socialicons1"/>
+                        <button id="promoBottone" text="msg://I miei coupon" icon="vaadin:ticket" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                        <button id="CarrelloIcona" classNames="CarrelloIcona" text="msg://Il mio carrello" icon="CART" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                        <button id="adminHamburger" text="☰" visible="false"  css="cursor:pointer; font-size:20px; background-color: #5abd84; color:white;" />
+                        <vbox id="adminMenu" visible="false" css=" position: absolute; top: 15%; left:50%;background-color: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; width:50%">
+                            <button id="invioNotifiche" visible="false" text="msg://Invia le notifiche agli utenti" icon="vaadin:file-sound" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                            <button id="UtentiRegistrati" visible="false" text="msg://Utenti Registrati" icon="vaadin:user" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                            <button id="configEcom"  visible="false" text="msg://Impostazioni" icon="vaadin:controller" css="cursor: pointer; background-color: #5abd84; color:white; width:100%;" />
+                        </vbox>
+                    </div>
+                </div>
+
+                <!-- Menu di navigazione -->
+                <hbox id="nav" classNames="navMenu">
+                    <!--                <unorderedList classNames="unorderedList">-->
+                    <!--                    <listItem classNames="listItem"><anchor text="msg://home" classNames="navigazioneButton"/></listItem>-->
+                    <!--                    <listItem classNames="listItem"><anchor text="msg://about" classNames="navigazioneButton"/></listItem>-->
+                    <!--                    <listItem classNames="listItem"><anchor text="msg://servizi" classNames="navigazioneButton"/></listItem>-->
+                    <!--                    <listItem classNames="listItem"><anchor text="msg://contatti" classNames="navigazioneButton"/></listItem>-->
+                    <!--                </unorderedList>-->
+                </hbox>
+                <div id="testoDescrittivo">
+
+                </div>
+            </div>
+
+
+
+
+
+            <div id="pagina" width="100%" height="100%">
+                <div classNames="wrapper">
+                    <article classNames="main">
+                        <div id="cookies" />
+                        <div id="carousel" classNames="carosello"/>
+                    </article>
+                    <!--                <div classNames="container">-->
+                    <!--                    <div classNames="aside aside-2" text="Contenuto aggiuntivo 2">-->
+
+                    <!--                    </div>-->
+                    <!--                </div>-->
+
+                    <div classNames="containerCard">
+                        <div classNames="aside aside-2">
+                            <h2 classNames="titleProdotti" text="msg://PRODOTTI IN EVIDENZA"/>
+
+                            <hbox spacing="true" classNames="hlayoutscroll" alignItems="CENTER" >
+                                <button id="scrollLeftBtn" classNames="scroll-button left"  action="scrollLeft" text="&lt;"/>
+                                <div id="prodotti" classNames="products">
+                                    <!--                                <div classNames="product-card">-->
+
+                                    <!--                            </div>-->
+                                </div>
+                                <button id="scrollRightBtn"  classNames="scroll-button rigth "   action="scrollRight" text="&gt;"/>
+
+                            </hbox>
+
+                            <!--                        <div id="prodotti" classNames="products">-->
+                            <!--                            <div classNames="product-card">-->
+                            <!--                                <image id="im1"  classNames="product-image" text="msg://ProdottoImmag1"/>-->
+                            <!--                                <div classNames="product-description" text="msg://Prodotto1">-->
+
+                            <!--                                </div>-->
+                            <!--                                <div classNames="product-price"  text="msg://Prezzo1" ></div>-->
+                            <!--                            </div>-->
+                            <!--                            <div classNames="product-card">-->
+                            <!--                                <image id="im2" classNames="product-image" text="msg://ProdottoImmag1"/>-->
+                            <!--                                <div classNames="product-description" text="msg://Prodotto2"></div>-->
+                            <!--                                <div classNames="product-price" text="msg://Prezzo1"></div>-->
+                            <!--                            </div>-->
+                            <!--                            <div classNames="product-card">-->
+                            <!--                                <image id="im3"  classNames="product-image" text="msg://ProdottoImmag1"/>-->
+                            <!--                                <div classNames="product-description" text="msg://Prodotto3"></div>-->
+                            <!--                                <div classNames="product-price" text="msg://Prezzo1"></div>-->
+                            <!--                            </div>-->
+                            <!--                            <div classNames="product-card">-->
+                            <!--                                <image id="im4" classNames="product-image" text="msg://ProdottoImmag1"/>-->
+                            <!--                                <div classNames="product-description" text="msg://Prodotto4"></div>-->
+                            <!--                                <div classNames="product-price" text="msg://Prezzo1"></div>-->
+                            <!--                            </div>-->
+                            <!--                        </div>-->
+                        </div>
+                    </div>
+
+                    <div classNames="containerCard">
+                        <div classNames="aside aside-2">
+                            <h2 classNames="titleProdotti" text="msg://PRODOTTI IN OFFERTA"/>
+                            <hbox classNames="hlayoutscroll" spacing="true" alignItems="CENTER" >
+                                <button id="scrollLeftBtn1" classNames="scroll-button left"    action="scrollLeft" text="&lt;"/>
+                                <div classNames="products" id="promozioni">
+                                    <!--                            <div classNames="product-card">-->
+
+                                    <!--                        </div>-->
+                                </div>
+                                <button id="scrollRightBtn1" classNames="scroll-button rigth"  action="scrollRight" text="&gt;"/>
+                            </hbox>
+                        </div>
+                    </div>
+                    <div id="descrizione" classNames="descrizione">
+                        <!--                    <h2 classNames="titleProdotti" text="msg://Chi siamo"/>-->
+                        <div classNames="inner-description">
+                            <h2 id="tuttiIprezzi" css="color : red;" text="msg://TUTTI I PREZZI SONO COMPRESI DI IVA"/>
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="piede" classNames="footer">
+
+                    </div>
+                </div>
+            </div>
+        </vbox>
+
+    </layout>
+</view>

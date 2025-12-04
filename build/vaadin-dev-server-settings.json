@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/giova/Desktop/Developing/CSM/jmixproject/shopEcom/shopEcom/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/giova/Desktop/Developing/CSM/jmixproject/shopEcom/shopEcom/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/giova/Desktop/Developing/CSM/jmixproject/shopEcom/shopEcom/build/resources/main/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\giova\\Desktop\\Developing\\CSM\\jmixproject\\shopEcom\\shopEcom\\build\\resources\\main\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\giova\\Desktop\\Developing\\CSM\\jmixproject\\shopEcom\\shopEcom\\build\\resources\\main\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/giova/Desktop/Developing/CSM/jmixproject/shopEcom/shopEcom/build/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/giova/Desktop/Developing/CSM/jmixproject/shopEcom/shopEcom/build/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/giova/Desktop/Developing/CSM/jmixproject/shopEcom/shopEcom/./src/main/frontend/generated/jar-resources",
+  "themeName": "ecomShop",
+  "clientServiceWorkerSource": "C:\\Users\\giova\\Desktop\\Developing\\CSM\\jmixproject\\shopEcom\\shopEcom\\build\\sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}

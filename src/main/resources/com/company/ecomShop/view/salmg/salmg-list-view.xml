@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://salmgListView.title"
+      focusComponent="salmgsDataGrid">
+    <data>
+        <collection id="salmgsDc"
+                    class="com.company.ecomShop.entity.Salmg">
+            <fetchPlan extends="_base"/>
+            <loader id="salmgsDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from Salmg e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="salmgsDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createButton" action="salmgsDataGrid.create"/>
+            <button id="editButton" action="salmgsDataGrid.edit"/>
+            <button id="removeButton" action="salmgsDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="salmgsDl"/>
+        </hbox>
+        <dataGrid id="salmgsDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="salmgsDc"
+                  columnReorderingAllowed="true">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns resizable="true">
+                <column property="id.codiceArticolo"/>
+                <column property="id.codiceMagazzino"/>
+                <column property="id.proprietaMagaz"/>
+                <column property="costoUltimo"/>
+                <column property="createTs"/>
+                <column property="createdBy"/>
+                <column property="dataUltimaArc"/>
+                <column property="dataUltimoCar"/>
+                <column property="dataUltimoScar"/>
+                <column property="flag1"/>
+                <column property="flag10"/>
+                <column property="flag2"/>
+                <column property="flag3"/>
+                <column property="flag4"/>
+                <column property="flag5"/>
+                <column property="flag6"/>
+                <column property="flag7"/>
+                <column property="flag8"/>
+                <column property="flag9"/>
+                <column property="giacDinamAt"/>
+                <column property="giacUltArchiv"/>
+                <column property="quaBolleFatt"/>
+                <column property="quaBolleFattUa"/>
+                <column property="quaCarUltArc"/>
+                <column property="quaImpegnCliUa"/>
+                <column property="quaOrdFornitUa"/>
+                <column property="quaScaUltArc"/>
+                <column property="quantImpegnCli"/>
+                <column property="quantOrdFornit"/>
+                <column property="totaleQuaCaric"/>
+                <column property="totaleQuaScaric"/>
+                <column property="totaleValCaric"/>
+                <column property="totaleValScaric"/>
+                <column property="updateTs"/>
+                <column property="updatedBy"/>
+                <column property="valCaricUltArc"/>
+                <column property="valScaUltArc"/>
+                <column property="version"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectButton" action="selectAction"/>
+            <button id="discardButton" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

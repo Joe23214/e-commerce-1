@@ -1,0 +1,856 @@
+
+[2025-03-19T09:28:06.369122400]: Restarting View Designer...
+Wed Mar 19 09:28:14 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeInitializer: Starting dev-mode updaters in C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer folder.
+Wed Mar 19 09:28:14 CET 2025 INFO - com.vaadin.flow.server.frontend.scanner.FullDependenciesScanner: Visited 118 classes. Took 25 ms.
+Wed Mar 19 09:28:14 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyRequiredFiles
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGeneratePackageJson
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexHtml
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexTs
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateReactFiles
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateOldIndexTs
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateViteDevMode
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsConfig
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsDefinitions
+Wed Mar 19 09:28:15 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateServiceWorker
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateBootstrap
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateFeatureFlags
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskInstallFrontendBuildPlugins
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdatePackages
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskRunNpmInstall
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskUpdatePackages: Skipping `pnpm install install` because the frontend packages are already installed in the folder 'C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules' and the hash in the file 'C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.vaadin\vaadin.json' is the same as in 'package.json'
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyFrontendFiles
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Copying frontend resources from jar files ...
+Wed Mar 19 09:28:15 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Wed Mar 19 09:28:15 CET 2025 WARN - com.vaadin.flow.server.communication.JSR356WebsocketInitializer: Atmosphere already initialized
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Visited 2 resources. Took 179 ms.
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyLocalFrontendFiles
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyLocalFrontendFiles: Found no local frontend resources for the project
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateSettingsFile
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateVite
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateImports
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateThemeImport
+Wed Mar 19 09:28:15 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeStartupListener: Waiting for a VaadinServlet to be deployed
+Wed Mar 19 09:28:18 CET 2025 INFO - com.vaadin.flow.server.DefaultDeploymentConfiguration: 
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+Wed Mar 19 09:28:18 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Starting Vite
+Wed Mar 19 09:28:19 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using node 20.15.1 located at C:\Program Files\nodejs\node.exe
+Wed Mar 19 09:28:23 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using npm 10.7.0 located at C:\Program Files\nodejs\npm.cmd
+Wed Mar 19 09:28:23 CET 2025 INFO - io.jmix.flowui.devserver.ViteHandler: Starting Vite using: C:\Program Files\nodejs\node.exe C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\vite\bin\vite.js --config C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\vite.config.ts --port 54317 --base /VAADIN/
+
+------------------ Starting Frontend compilation. ------------------
+
+C:\Program Files\nodejs\node.exe \ 
+    .\node_modules\vite\bin\vite.js --config \ 
+    .\vite.config.ts --port 54317 --base /VAADIN/ 
+Wed Mar 19 09:28:23 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Running Vite to compile frontend resources. This may take a moment, please stand by...
+Wed Mar 19 09:28:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Wed Mar 19 09:28:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   VITE v5.4.8  ready in 3857 ms
+
+----------------- Frontend compiled successfully. -----------------
+
+Wed Mar 19 09:28:27 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Started Vite. Time: 8953 ms
+Wed Mar 19 09:28:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Wed Mar 19 09:28:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   ➜  Local:   http://127.0.0.1:54317/VAADIN/
+Wed Mar 19 09:28:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:29 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:29 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:33 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Wed Mar 19 09:28:33 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: [TypeScript] Found 0 errors. Watching for file changes.
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:28:34 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:28:34 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:28 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:28 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:29 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:29 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:42 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:42 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:42 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:42 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:42 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:44 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:44 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:45 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:45 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:46 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:46 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:48 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:50 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:50 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:51 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:51 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:51 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:54 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:55 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:55 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:57 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:57 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:29:58 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:29:58 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:30:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:30:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:30:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:30:27 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:30:27 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:30:28 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 09:30:28 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:1121:17: Missed semicolon
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:1121:16
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1119|    flex-wrap: wrap; /* Gli aside e il contenuto saranno su più righe se lo spazio è ristretto */
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1120|    gap: 10px;
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1121|      width: 100% /* Imposta una larghezza massima */
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                  ^
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1122|    margin-top : -180px;
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1123|  }
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\dueemmestore\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Wed Mar 19 09:30:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://sysFileDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="sysFileDc"
+                  class="com.company.ecomShop.entity.SysFile">
+            <fetchPlan extends="_base">
+                <property name="marketnewstoreArtImg" fetchPlan="_base">
+                    <property name="artImgPrincipale" fetchPlan="_base"/>
+                    <property name="sysFile" fetchPlan="_base"/>
+                </property>
+            </fetchPlan>
+            <loader id="sysFileDl"/>
+            <collection id="marketnewstoreArtImgDc" property="marketnewstoreArtImg"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="sysFileDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+            <dateTimePicker id="createDateField" property="createDate"/>
+            <dateTimePicker id="createTsField" property="createTs"/>
+            <textField id="createdByField" property="createdBy"/>
+            <dateTimePicker id="deleteTsField" property="deleteTs"/>
+            <textField id="deletedByField" property="deletedBy"/>
+            <textField id="extField" property="ext"/>
+            <textField id="fileSizeField" property="fileSize"/>
+            <textField id="nameField" property="name"/>
+            <textField id="sysTenantField" property="sysTenant"/>
+            <dateTimePicker id="updateTsField" property="updateTs"/>
+            <textField id="updatedByField" property="updatedBy"/>
+            <textField id="versionField" property="version"/>
+        </formLayout>
+        <h4 text="msg://com.company.ecomShop.entity/SysFile.marketnewstoreArtImg"/>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button action="marketnewstoreArtImgDataGrid.add"/>
+            <button action="marketnewstoreArtImgDataGrid.exclude"/>
+        </hbox>
+        <dataGrid id="marketnewstoreArtImgDataGrid" dataContainer="marketnewstoreArtImgDc" width="100%"
+                  minHeight="20em">
+            <actions>
+                <action id="add" type="list_add"/>
+                <action id="exclude" type="list_exclude"/>
+            </actions>
+            <columns>
+                <column property="artImgPrincipale"/>
+            </columns>
+        </dataGrid>
+        <hbox id="detailActions">
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

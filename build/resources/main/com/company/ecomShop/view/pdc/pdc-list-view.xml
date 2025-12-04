@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://pdcListView.title"
+      focusComponent="pdcsDataGrid">
+    <data>
+        <collection id="pdcsDc"
+                    class="com.company.ecomShop.entity.Pdc">
+            <fetchPlan extends="_base"/>
+            <loader id="pdcsDl" readOnly="true">
+                <query>
+                    <![CDATA[
+                    select e from Pdc e
+                    where e.codiceConto in (select f.codice from PdcPassword f)
+                ]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="pdcsDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createButton" action="pdcsDataGrid.create"/>
+            <button id="editButton" action="pdcsDataGrid.edit"/>
+            <button id="removeButton" action="pdcsDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="pdcsDl"/>
+        </hbox>
+        <dataGrid id="pdcsDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="pdcsDc"
+                  columnReorderingAllowed="true">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns resizable="true">
+                <column property="codiceConto"/>
+                <column property="cap"/>
+                <column property="categoriaSconto"/>
+                <column property="codClienteDest"/>
+                <column property="codPorto"/>
+                <column property="codVettore"/>
+                <column property="codiceAgente"/>
+                <column property="codiceAttivita"/>
+                <column property="codiceBanca"/>
+                <column property="codiceFiscale"/>
+                <column property="codicePadre"/>
+                <column property="codicePagamento"/>
+                <column property="codval"/>
+                <column property="cognomeCli"/>
+                <column property="createTs"/>
+                <column property="createdBy"/>
+                <column property="credito"/>
+                <column property="data10"/>
+                <column property="dataCrea"/>
+                <column property="dataUlEc"/>
+                <column property="dataultsco"/>
+                <column property="descrizione"/>
+                <column property="descrizioneSuppl"/>
+                <column property="email"/>
+                <column property="fax"/>
+                <column property="flag1"/>
+                <column property="flag2"/>
+                <column property="flag3"/>
+                <column property="flagCliFornit"/>
+                <column property="flagPersonaFis"/>
+                <column property="gruppo"/>
+                <column property="indirizzo"/>
+                <column property="indirizzo2"/>
+                <column property="listinoCl"/>
+                <column property="localita"/>
+                <column property="minOrdine"/>
+                <column property="nazione"/>
+                <column property="nomeCli"/>
+                <column property="note"/>
+                <column property="partitaIva"/>
+                <column property="pdvCrea"/>
+                <column property="pec"/>
+                <column property="prefFax"/>
+                <column property="prefTel"/>
+                <column property="progSpesPrec"/>
+                <column property="progrSpesa"/>
+                <column property="provincia"/>
+                <column property="saldo"/>
+                <column property="scontoCateg"/>
+                <column property="scontoCli"/>
+                <column property="scontoCli2"/>
+                <column property="telefono"/>
+                <column property="totAccPrec"/>
+                <column property="totBoll"/>
+                <column property="ultimoAggiorn"/>
+                <column property="updateTs"/>
+                <column property="updatedBy"/>
+                <column property="version"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectButton" action="selectAction"/>
+            <button id="discardButton" action="discardAction"/>
+        </hbox>
+
+        <button id="Home" text="msg://Vai alla Home"  css="background-color: #5abd84; color:white;" ></button>
+    </layout>
+</view>

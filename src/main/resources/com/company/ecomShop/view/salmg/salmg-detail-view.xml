@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://salmgDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="salmgDc"
+                  class="com.company.ecomShop.entity.Salmg">
+            <fetchPlan extends="_base"/>
+            <loader id="salmgDl"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="salmgDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+            <textField id="idCodiceArticoloField" property="id.codiceArticolo"/>
+            <textField id="idCodiceMagazzinoField" property="id.codiceMagazzino"/>
+            <textField id="idProprietaMagazField" property="id.proprietaMagaz"/>
+            <textField id="costoUltimoField" property="costoUltimo"/>
+            <dateTimePicker id="createTsField" property="createTs"/>
+            <textField id="createdByField" property="createdBy"/>
+            <textField id="dataUltimaArcField" property="dataUltimaArc"/>
+            <textField id="dataUltimoCarField" property="dataUltimoCar"/>
+            <textField id="dataUltimoScarField" property="dataUltimoScar"/>
+            <textField id="flag1Field" property="flag1"/>
+            <textField id="flag10Field" property="flag10"/>
+            <textField id="flag2Field" property="flag2"/>
+            <textField id="flag3Field" property="flag3"/>
+            <textField id="flag4Field" property="flag4"/>
+            <textField id="flag5Field" property="flag5"/>
+            <textField id="flag6Field" property="flag6"/>
+            <textField id="flag7Field" property="flag7"/>
+            <textField id="flag8Field" property="flag8"/>
+            <textField id="flag9Field" property="flag9"/>
+            <textField id="giacDinamAtField" property="giacDinamAt"/>
+            <textField id="giacUltArchivField" property="giacUltArchiv"/>
+            <textField id="quaBolleFattField" property="quaBolleFatt"/>
+            <textField id="quaBolleFattUaField" property="quaBolleFattUa"/>
+            <textField id="quaCarUltArcField" property="quaCarUltArc"/>
+            <textField id="quaImpegnCliUaField" property="quaImpegnCliUa"/>
+            <textField id="quaOrdFornitUaField" property="quaOrdFornitUa"/>
+            <textField id="quaScaUltArcField" property="quaScaUltArc"/>
+            <textField id="quantImpegnCliField" property="quantImpegnCli"/>
+            <textField id="quantOrdFornitField" property="quantOrdFornit"/>
+            <textField id="totaleQuaCaricField" property="totaleQuaCaric"/>
+            <textField id="totaleQuaScaricField" property="totaleQuaScaric"/>
+            <textField id="totaleValCaricField" property="totaleValCaric"/>
+            <textField id="totaleValScaricField" property="totaleValScaric"/>
+            <dateTimePicker id="updateTsField" property="updateTs"/>
+            <textField id="updatedByField" property="updatedBy"/>
+            <textField id="valCaricUltArcField" property="valCaricUltArc"/>
+            <textField id="valScaUltArcField" property="valScaUltArc"/>
+            <textField id="versionField" property="version"/>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

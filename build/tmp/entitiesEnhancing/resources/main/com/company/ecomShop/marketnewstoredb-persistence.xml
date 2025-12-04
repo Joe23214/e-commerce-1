@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd" version="3.0">
+  <persistence-unit name="marketnewstoredb">
+    <provider>io.jmix.data.impl.JmixPersistenceProvider</provider>
+    <mapping-file>com/company/ecomShop/marketnewstoredb-orm.xml</mapping-file>
+    <class>com.company.ecomShop.entity.ConfigEcom</class>
+    <class>com.company.ecomShop.entity.Art2</class>
+    <class>io.jmix.core.entity.UriConverter</class>
+    <class>com.company.ecomShop.entity.Comuni</class>
+    <class>com.company.ecomShop.entity.CarrelloRiga</class>
+    <class>com.company.ecomShop.entity.Art</class>
+    <class>com.company.ecomShop.entity.Li</class>
+    <class>com.company.ecomShop.entity.Panelnew</class>
+    <class>com.company.ecomShop.entity.Salmg</class>
+    <class>io.jmix.flowuidata.entity.FilterConditionConverter</class>
+    <class>com.company.ecomShop.entity.Avvisi</class>
+    <class>com.company.ecomShop.entity.FatturapaPdc</class>
+    <class>io.jmix.securitydata.entity.StringCollectionConverter</class>
+    <class>com.company.ecomShop.entity.CarelloChiusura</class>
+    <class>com.company.ecomShop.entity.Messaggi</class>
+    <class>com.company.ecomShop.entity.ArtScheda</class>
+    <class>com.company.ecomShop.entity.Carrello</class>
+    <class>com.company.ecomShop.entity.PdcPassword</class>
+    <class>com.company.ecomShop.entity.Prom</class>
+    <class>com.company.ecomShop.entity.PdcDatiAggiuntivi</class>
+    <class>com.company.ecomShop.entity.Ae</class>
+    <class>com.company.ecomShop.entity.DeviceToken</class>
+    <class>com.company.ecomShop.entity.Ag</class>
+    <class>com.company.ecomShop.entity.TessereClienti</class>
+    <class>com.company.ecomShop.entity.EmailUtente</class>
+    <class>com.company.ecomShop.entity.TabellaFasce</class>
+    <class>com.company.ecomShop.entity.PuntiRitiro</class>
+    <class>com.company.ecomShop.entity.Pdc</class>
+    <class>io.jmix.core.entity.FileRefConverter</class>
+    <class>com.company.ecomShop.entity.An</class>
+    <exclude-unlisted-classes/>
+    <properties>
+      <property name="eclipselink.weaving" value="static"/>
+      <property name="io.jmix.enhancing.converters-list" value="io.jmix.core.entity.UriConverter;io.jmix.core.entity.FileRefConverter;io.jmix.flowuidata.entity.FilterConditionConverter;io.jmix.securitydata.entity.StringCollectionConverter"/>
+    </properties>
+  </persistence-unit>
+</persistence>

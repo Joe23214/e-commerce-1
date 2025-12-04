@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://pdcDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="pdcDc"
+                  class="com.company.ecomShop.entity.Pdc">
+            <fetchPlan extends="_base"/>
+            <loader id="pdcDl"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="pdcDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+            <textField id="codiceContoField" property="codiceConto"/>
+            <textField id="capField" property="cap"/>
+            <textField id="categoriaScontoField" property="categoriaSconto"/>
+            <textField id="codClienteDestField" property="codClienteDest"/>
+            <textField id="codPortoField" property="codPorto"/>
+            <textField id="codVettoreField" property="codVettore"/>
+            <textField id="codiceAgenteField" property="codiceAgente"/>
+            <textField id="codiceAttivitaField" property="codiceAttivita"/>
+            <textField id="codiceBancaField" property="codiceBanca"/>
+            <textField id="codiceFiscaleField" property="codiceFiscale"/>
+            <textField id="codicePadreField" property="codicePadre"/>
+            <textField id="codicePagamentoField" property="codicePagamento"/>
+            <textField id="codvalField" property="codval"/>
+            <textField id="cognomeCliField" property="cognomeCli"/>
+            <dateTimePicker id="createTsField" property="createTs"/>
+            <textField id="createdByField" property="createdBy"/>
+            <textField id="creditoField" property="credito"/>
+            <textField id="data10Field" property="data10"/>
+            <textField id="dataCreaField" property="dataCrea"/>
+            <textField id="dataUlEcField" property="dataUlEc"/>
+            <textField id="dataultscoField" property="dataultsco"/>
+            <textField id="descrizioneField" property="descrizione"/>
+            <textField id="descrizioneSupplField" property="descrizioneSuppl"/>
+            <textField id="emailField" property="email"/>
+            <textField id="faxField" property="fax"/>
+            <textField id="flag1Field" property="flag1"/>
+            <textField id="flag2Field" property="flag2"/>
+            <textField id="flag3Field" property="flag3"/>
+            <textField id="flagCliFornitField" property="flagCliFornit"/>
+            <textField id="flagPersonaFisField" property="flagPersonaFis"/>
+            <textField id="gruppoField" property="gruppo"/>
+            <textField id="indirizzoField" property="indirizzo"/>
+            <textField id="indirizzo2Field" property="indirizzo2"/>
+            <textField id="listinoClField" property="listinoCl"/>
+            <textField id="localitaField" property="localita"/>
+            <textField id="minOrdineField" property="minOrdine"/>
+            <textField id="nazioneField" property="nazione"/>
+            <textField id="nomeCliField" property="nomeCli"/>
+            <textField id="noteField" property="note"/>
+            <textField id="partitaIvaField" property="partitaIva"/>
+            <textField id="pdvCreaField" property="pdvCrea"/>
+            <textField id="pecField" property="pec"/>
+            <textField id="prefFaxField" property="prefFax"/>
+            <textField id="prefTelField" property="prefTel"/>
+            <textField id="progSpesPrecField" property="progSpesPrec"/>
+            <textField id="progrSpesaField" property="progrSpesa"/>
+            <textField id="provinciaField" property="provincia"/>
+            <textField id="saldoField" property="saldo"/>
+            <textField id="scontoCategField" property="scontoCateg"/>
+            <textField id="scontoCliField" property="scontoCli"/>
+            <textField id="scontoCli2Field" property="scontoCli2"/>
+            <textField id="telefonoField" property="telefono"/>
+            <textField id="totAccPrecField" property="totAccPrec"/>
+            <textField id="totBollField" property="totBoll"/>
+            <textField id="ultimoAggiornField" property="ultimoAggiorn"/>
+            <dateTimePicker id="updateTsField" property="updateTs"/>
+            <textField id="updatedByField" property="updatedBy"/>
+            <textField id="versionField" property="version"/>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

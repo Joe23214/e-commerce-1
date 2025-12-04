@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://puntiRitiroDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="puntiRitiroDc"
+                  class="com.company.ecomShop.entity.PuntiRitiro">
+            <fetchPlan extends="_base">
+                <property name="progressivo"/>
+            </fetchPlan>
+            <loader id="puntiRitiroDl"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="puntiRitiroDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+            <textField id="capField" property="cap"/>
+            <dateTimePicker id="createTsField" property="createTs"/>
+            <textField id="createdByField" property="createdBy"/>
+            <textField id="indirizzoField" property="indirizzo"/>
+            <textField id="localitaField" property="localita"/>
+            <textField id="pdvField" property="pdv"/>
+            <textField id="provinciaField" property="provincia"/>
+            <dateTimePicker id="updateTsField" property="updateTs"/>
+            <textField id="updatedByField" property="updatedBy"/>
+            <textField id="versionField" property="version"/>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

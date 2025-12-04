@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd" version="3.0">
+  <persistence-unit name="main">
+    <provider>io.jmix.data.impl.JmixPersistenceProvider</provider>
+    <mapping-file>com/company/ecomShop/orm.xml</mapping-file>
+    <class>io.jmix.email.entity.SendingMessage</class>
+    <class>io.jmix.core.entity.UriConverter</class>
+    <class>io.jmix.securitydata.entity.UserSubstitutionEntity</class>
+    <class>io.jmix.securitydata.entity.ResourceRoleEntity</class>
+    <class>com.company.ecomShop.entity.MarketnewstoreArtImg</class>
+    <class>io.jmix.search.index.queue.entity.EnqueueingSession</class>
+    <class>io.jmix.search.index.queue.entity.IndexingQueueItem</class>
+    <class>io.jmix.email.entity.SendingAttachment</class>
+    <class>io.jmix.data.entity.ReferenceToEntity</class>
+    <class>com.company.ecomShop.entity.key.PanelnewCompKey</class>
+    <class>io.jmix.flowuidata.entity.FilterConditionConverter</class>
+    <class>com.company.ecomShop.entity.key.PromCompKey</class>
+    <class>com.company.ecomShop.entity.User</class>
+    <class>com.company.ecomShop.entity.key.CarrelloRigaCompKey</class>
+    <class>com.company.ecomShop.entity.key.LiCompKey</class>
+    <class>com.company.ecomShop.entity.SysFile</class>
+    <class>io.jmix.securitydata.entity.RowLevelPolicyEntity</class>
+    <class>io.jmix.securitydata.entity.RoleAssignmentEntity</class>
+    <class>com.company.ecomShop.entity.key.SalmgCompKey</class>
+    <class>io.jmix.flowuidata.entity.UserSettingsItem</class>
+    <class>io.jmix.securitydata.entity.StringCollectionConverter</class>
+    <class>com.company.ecomShop.entity.key.TabellaFasceCompKey</class>
+    <class>io.jmix.securitydata.entity.RowLevelRoleEntity</class>
+    <class>com.company.ecomShop.entity.SysFolder</class>
+    <class>com.company.ecomShop.entity.key.Art2CompKey</class>
+    <class>io.jmix.core.entity.FileRefConverter</class>
+    <class>io.jmix.flowuidata.entity.FilterConfiguration</class>
+    <class>io.jmix.securitydata.entity.ResourcePolicyEntity</class>
+    <exclude-unlisted-classes/>
+    <properties>
+      <property name="eclipselink.weaving" value="static"/>
+      <property name="io.jmix.enhancing.converters-list" value="io.jmix.core.entity.UriConverter;io.jmix.core.entity.FileRefConverter;io.jmix.flowuidata.entity.FilterConditionConverter;io.jmix.securitydata.entity.StringCollectionConverter"/>
+    </properties>
+  </persistence-unit>
+</persistence>

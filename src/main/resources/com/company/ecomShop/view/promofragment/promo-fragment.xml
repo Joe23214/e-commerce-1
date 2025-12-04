@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fragment xmlns="http://jmix.io/schema/flowui/fragment">
+    <data>
+        <instance id="item" class="com.company.ecomShop.entity.PromoDto"/>
+    </data>
+    <content>
+        <vbox id="root" width="100%" height="100%" />
+    </content>
+</fragment>

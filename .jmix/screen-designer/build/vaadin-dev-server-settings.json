@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/build/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\utente\\IdeaProjects\\dueemmestore\\.jmix\\screen-designer\\build\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\utente\\IdeaProjects\\dueemmestore\\.jmix\\screen-designer\\build\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/build/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/build/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/utente/IdeaProjects/dueemmestore/.jmix/screen-designer/frontend/generated/jar-resources",
+  "themeName": "jmixprogettostudio",
+  "clientServiceWorkerSource": "C:\\Users\\utente\\IdeaProjects\\dueemmestore\\.jmix\\screen-designer\\build\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

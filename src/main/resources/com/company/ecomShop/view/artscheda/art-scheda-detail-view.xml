@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://artSchedaDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="artSchedaDc"
+                  class="com.company.ecomShop.entity.ArtScheda">
+            <fetchPlan extends="_base">
+                <property name="codiceArticolo"/>
+            </fetchPlan>
+            <loader id="artSchedaDl"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="artSchedaDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+            <textField id="codiceArticoloField" property="codiceArticolo"/>
+            <textField id="altezzaField" property="altezza"/>
+            <textField id="artconpackageField" property="artconpackage"/>
+            <textField id="artpackageField" property="artpackage"/>
+            <textField id="codiceArticoloPadreField" property="codiceArticoloPadre"/>
+            <textField id="codiceArticoloSostitutoField" property="codiceArticoloSostituto"/>
+            <textField id="codificags1Field" property="codificags1"/>
+            <textField id="coloreField" property="colore"/>
+            <dateTimePicker id="createTsField" property="createTs"/>
+            <textField id="createdByField" property="createdBy"/>
+            <textField id="ctxstrField" property="ctxstr"/>
+            <textField id="flagArticoloDiServizioField" property="flagArticoloDiServizio"/>
+            <textField id="flagDistintaVenditaField" property="flagDistintaVendita"/>
+            <textField id="flagEspositoreCarichiField" property="flagEspositoreCarichi"/>
+            <textField id="flagPesoArticoloField" property="flagPesoArticolo"/>
+            <textField id="flagSconfezionamentoField" property="flagSconfezionamento"/>
+            <textField id="flagSostitutoField" property="flagSostituto"/>
+            <textField id="ggAllertScadenzaField" property="ggAllertScadenza"/>
+            <textField id="ggconsegnaField" property="ggconsegna"/>
+            <textField id="larghezzaField" property="larghezza"/>
+            <textField id="lunghezzaField" property="lunghezza"/>
+            <textField id="note2Field" property="note2"/>
+            <textField id="percorsodefaultField" property="percorsodefault"/>
+            <textField id="pzxctField" property="pzxct"/>
+            <textField id="stagioneField" property="stagione"/>
+            <textField id="strxpedField" property="strxped"/>
+            <textField id="tagliaField" property="taglia"/>
+            <dateTimePicker id="updateTsField" property="updateTs"/>
+            <textField id="updatedByField" property="updatedBy"/>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

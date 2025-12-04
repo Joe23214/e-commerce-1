@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://puntiRitiroListView.title"
+      focusComponent="puntiRitiroesDataGrid">
+    <data>
+        <collection id="puntiRitiroesDc"
+                    class="com.company.ecomShop.entity.PuntiRitiro">
+            <fetchPlan extends="_base">
+                <property name="progressivo"/>
+            </fetchPlan>
+            <loader id="puntiRitiroesDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from PuntiRitiro e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="puntiRitiroesDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createButton" action="puntiRitiroesDataGrid.create"/>
+            <button id="editButton" action="puntiRitiroesDataGrid.edit"/>
+            <button id="removeButton" action="puntiRitiroesDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="puntiRitiroesDl"/>
+        </hbox>
+        <dataGrid id="puntiRitiroesDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="puntiRitiroesDc"
+                  columnReorderingAllowed="true">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns resizable="true">
+                <column property="cap"/>
+                <column property="createTs"/>
+                <column property="createdBy"/>
+                <column property="indirizzo"/>
+                <column property="localita"/>
+                <column property="pdv"/>
+                <column property="provincia"/>
+                <column property="updateTs"/>
+                <column property="updatedBy"/>
+                <column property="version"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectButton" action="selectAction"/>
+            <button id="discardButton" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

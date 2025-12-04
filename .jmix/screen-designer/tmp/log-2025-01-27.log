@@ -1,0 +1,54 @@
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeInitializer: Starting dev-mode updaters in C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer folder.
+Mon Jan 27 10:43:45 CET 2025 INFO - com.vaadin.flow.server.frontend.scanner.FullDependenciesScanner: Visited 118 classes. Took 21 ms.
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyRequiredFiles
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGeneratePackageJson
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexHtml
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexTs
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateReactFiles
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateOldIndexTs
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateViteDevMode
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsConfig
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsDefinitions
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateServiceWorker
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateBootstrap
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateFeatureFlags
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskInstallFrontendBuildPlugins
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdatePackages
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskRunNpmInstall
+Mon Jan 27 10:43:45 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskUpdatePackages: Skipping `pnpm install install` because the frontend packages are already installed in the folder 'C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules' and the hash in the file 'C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.vaadin\vaadin.json' is the same as in 'package.json'
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyFrontendFiles
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Copying frontend resources from jar files ...
+Mon Jan 27 10:43:45 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Mon Jan 27 10:43:45 CET 2025 WARN - com.vaadin.flow.server.communication.JSR356WebsocketInitializer: Atmosphere already initialized
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Visited 2 resources. Took 238 ms.
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyLocalFrontendFiles
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyLocalFrontendFiles: Found no local frontend resources for the project
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateSettingsFile
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateVite
+Mon Jan 27 10:43:45 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateImports
+Mon Jan 27 10:43:46 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateThemeImport
+Mon Jan 27 10:43:46 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeStartupListener: Waiting for a VaadinServlet to be deployed
+Mon Jan 27 10:43:48 CET 2025 INFO - com.vaadin.flow.server.DefaultDeploymentConfiguration: 
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+Mon Jan 27 10:43:48 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Starting Vite
+Mon Jan 27 10:43:48 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using node 20.15.1 located at C:\Program Files\nodejs\node.exe
+Mon Jan 27 10:43:50 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using npm 10.7.0 located at C:\Program Files\nodejs\npm.cmd
+Mon Jan 27 10:43:50 CET 2025 INFO - io.jmix.flowui.devserver.ViteHandler: Starting Vite using: C:\Program Files\nodejs\node.exe C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\vite\bin\vite.js --config C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\vite.config.ts --port 64113 --base /VAADIN/
+
+------------------ Starting Frontend compilation. ------------------
+
+C:\Program Files\nodejs\node.exe \ 
+    .\node_modules\vite\bin\vite.js --config \ 
+    .\vite.config.ts --port 64113 --base /VAADIN/ 
+Mon Jan 27 10:43:50 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Running Vite to compile frontend resources. This may take a moment, please stand by...
+Mon Jan 27 10:44:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Mon Jan 27 10:44:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   VITE v5.4.8  ready in 26171 ms
+
+----------------- Frontend compiled successfully. -----------------
+
+Mon Jan 27 10:44:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Mon Jan 27 10:44:16 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Started Vite. Time: 28447 ms
+Mon Jan 27 10:44:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   ➜  Local:   http://127.0.0.1:64113/VAADIN/
+Mon Jan 27 10:44:20 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Mon Jan 27 10:44:20 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: [TypeScript] Found 0 errors. Watching for file changes.

@@ -1,0 +1,85 @@
+<!--
+<fragment xmlns="http://jmix.io/schema/flowui/fragment">
+    <data>
+        <instance id="item" class="com.company.ecomShop.entity.CarrelloRiga"/>
+        <instance id="item2" class="com.company.ecomShop.entity.Art">
+            <loader id="artLoader">
+                <query>
+                    <![CDATA[
+                        select a from Art a where a.codiceArticolo = :codiceArticolo
+                    ]]>
+                </query>
+            </loader>
+        </instance>
+    </data>
+
+    <content>
+        <hbox id="root" css="align-items: center; height: 100px; padding: 10px 15px; border-bottom: 1px solid #ddd; gap: 15px; width: 100%;">
+            &lt;!&ndash; Immagine &ndash;&gt;
+            <image id="img" width="80px" height="80px" css="border-radius: 6px; object-fit: cover; flex: 0 0 80px;"/>
+
+            &lt;!&ndash; Descrizione &ndash;&gt;
+            <span id="descrizione" css="flex: 1 1 auto; font-weight: 600; font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-left:20px;"/>
+
+            &lt;!&ndash; Prezzo unitario &ndash;&gt;
+            <span id="prezzo" css="flex: 0 0 100px; font-size: 16px; text-align: left; margin-left:20px;"/>
+
+            &lt;!&ndash; Quantità &ndash;&gt;
+            <hbox css="flex: 0 0 140px; align-items: center; gap: 5px; justify-content: center; margin-left:40px;">
+                <button id="decrementaQta" text="-" width="30px"/>
+                <integerField id="quantitaField" css="width: 60px; text-align: center;" min="0"/>
+                <button id="incrementaQta" text="+" width="30px"/>
+            </hbox>
+
+            &lt;!&ndash; Unità di misura &ndash;&gt;
+            <span id="unitaMisura" css="flex: 0 0 140px; font-weight: 700; text-align: center; margin-right:40px; font-size: 14px;"/>
+
+            &lt;!&ndash; Totale &ndash;&gt;
+            <span id="valoreTotale" css="flex: 0 0 100px; text-align: right; font-weight: 700; font-size: 16px; color: #1a7e1a;"/>
+
+            &lt;!&ndash; Icona elimina &ndash;&gt;
+            <icon icon="vaadin:trash" id="eliminaRiga" css="flex: 0 0 50px; cursor: pointer; color: white; background-color: #e74c3c; border-radius: 6px; padding: 8px;"/>
+        </hbox>
+    </content>
+</fragment>
+-->
+<fragment xmlns="http://jmix.io/schema/flowui/fragment">
+    <data>
+        <instance id="item" class="com.company.ecomShop.entity.CarrelloRiga"/>
+        <instance id="item2" class="com.company.ecomShop.entity.Art">
+            <loader id="artLoader">
+                <query>
+                    <![CDATA[
+                        select a from Art a where a.codiceArticolo = :codiceArticolo
+                    ]]>
+                </query>
+            </loader>
+        </instance>
+    </data>
+    <content>
+        <hbox id="root" classNames="cart-item">
+            <!-- Immagine -->
+            <image id="img" classNames="cart-img"/>
+
+            <vbox classNames="cart-details">
+                <!-- Descrizione -->
+                <span id="descrizione" classNames="cart-title"/>
+
+                <!-- Prezzo + Totale -->
+                <hbox classNames="cart-price-row">
+                    <span id="prezzo" classNames="cart-price"/>
+                    <span id="valoreTotale" classNames="cart-total"/>
+                </hbox>
+
+                <!-- Quantità + unità + elimina -->
+                <hbox classNames="cart-actions">
+                    <button id="decrementaQta" text="-" classNames="qty-btn"/>
+                    <integerField id="quantitaField" classNames="qty-field" min="0"/>
+                    <button id="incrementaQta" text="+" classNames="qty-btn"/>
+                    <span id="unitaMisura" classNames="cart-unit"/>
+                    <icon icon="vaadin:trash" id="eliminaRiga" classNames="cart-remove"/>
+                </hbox>
+            </vbox>
+        </hbox>
+    </content>
+</fragment>

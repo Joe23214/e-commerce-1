@@ -1,0 +1,53 @@
+:host([theme~="hybridmenu-top"]) {
+	transition: width 0.3s ease-in-out, border-top-width 0.3s ease-in-out;
+    border-top: 0 solid var(--hybridmenu-primary-color);
+	color: var(--hybridmenu-text-color);
+    border-radius: 0;
+    min-width: 35px;
+    margin: 0 4px;
+    height: 40px;
+    width: 35px;
+    padding: 0;
+}
+
+:host([theme~="hybridmenu-top"].active) {
+    border-top-width: 3px;
+    height: 43px;
+}
+
+:host([theme~="hybridmenu-top"]) [part="input-field"] {
+	background: var(--hybridmenu-top-menu-button-background-color);
+	transition: background 0.3s ease-in-out;
+	border-radius: 0;
+	padding: 2px;
+}
+
+:host([theme~="hybridmenu-top"]) [part="input-field"] ::slotted(iron-icon) {
+	color: var(--hybridmenu-text-color);
+	margin-left: 4px;
+}
+
+:host([theme~="hybridmenu-top"]) [part="input-field"]::after,
+:host([theme~="hybridmenu-top"]) [part="input-field"]::before {
+	display: none;
+}
+
+:host([theme~="hybridmenu-top"]) [part="input-field"] [part="value"] {
+	transition: opacity 0.3s ease-in-out;
+	border: none !important;
+    opacity: 0;
+}
+
+:host([theme~="hybridmenu-top"]:hover) {
+    width: 180px !important;
+    border-top-width: 5px;
+    height: 45px;
+}
+
+:host([theme~="hybridmenu-top"]:hover) [part="input-field"] {
+	background: var(--hybridmenu-left-menu-button-hover-background-color);
+}
+
+:host([theme~="hybridmenu-top"]:hover) [part="input-field"] [part="value"] {
+    opacity: 1;
+}

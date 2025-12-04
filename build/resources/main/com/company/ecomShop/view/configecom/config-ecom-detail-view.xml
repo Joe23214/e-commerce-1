@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://configEcomDetailView.title"
+      focusComponent="form">
+
+    <data>
+        <instance id="configEcomDc"
+                  class="com.company.ecomShop.entity.ConfigEcom"
+                  fetchPlan="_base"/>
+    </data>
+
+    <actions>
+        <action id="saveAction" />
+        <action id="closeAction" />
+    </actions>
+
+    <layout>
+        <formLayout id="form" dataContainer="configEcomDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+
+            <!-- SEZIONE DATI AZIENDALI -->
+            <div classNames="group-container m-b">
+                <span text="Dati aziendali e contatti" classNames="group-title"></span>
+                <textField label="Cfg" id="cfgField" property="cfg" classNames="m-m"/>
+                <textField label="Ragione Sociale" id="ragSocField" property="ragSoc" classNames="m-m"/>
+                <textField label="SDI" id="sdiField" property="sdi" classNames="m-m"/>
+                <textField label="Partita Iva" id="piva" property="pIva" classNames="m-m"/>
+                <textField label="Telefono" id="telefonoField" property="telefono" classNames="m-m"/>
+                <textField label="Mail" id="mailField" property="mail" classNames="m-m"/>
+                <textField label="Pec" id="pecField" property="pec" classNames="m-m"/>
+                <textField label="Indirizzo" id="indirizzoField" property="indirizzo" classNames="m-m"/>
+                <textField label="Città" id="cittaField" property="citta" classNames="m-m"/>
+                <textField label="Cap" id="capField" property="cap" classNames="m-m"/>
+                <textField label="Provincia" id="provinciaField" property="provincia" classNames="m-m"/>
+            </div>
+
+            <!-- SEZIONE PARAMETRI E-COMMERCE -->
+            <div classNames="group-container m-b">
+                <span text="Parametri di Configurazione" classNames="group-title"></span>
+                <textField label="Quantità per giacenze giallo" id="qtaGiacenzaGialloField" property="qtaGiacenzaGiallo" classNames="m-m"/>
+                <textField label="Quantità per giacenze rosso" id="qtaGiacenzaRossoField" property="qtaGiacenzaRosso" classNames="m-m"/>
+                <textField label="Ore scarto per preparazione" id="oreScartoField" property="oreScarto" classNames="m-m"/>
+            </div>
+
+            <!--  testi + link-->
+            <div classNames="group-container m-b">
+                <span text="Testo e link" classNames="group-title"></span>
+                <textField label="Testo footer" id="testFoot" property="testoFooter" classNames="m-m"/>
+                <textField label="Link Facebook" id="linkf" property="linkFacebook" classNames="m-m"/>
+                <textField label="Link Instagram" id="linki" property="linkInstagram" classNames="m-m"/>
+                <textField label="Link Tik Tok" id="linkt" property="linkTiktok" classNames="m-m"/>
+            </div>
+        </formLayout>
+
+        <hbox id="detailActions" classNames="actions-bar mt-xl mb-xl">
+            <button text="msg://Salva" id="saveAndCloseButton" action="saveAction"/>
+            <button text="msg://Chiudi" id="closeButton" action="closeAction"/>
+        </hbox>
+        <button alignSelf="CENTER" id="Home" text="msg://Vai alla Home"  css="background-color: #5abd84; color:white;" ></button>
+    </layout>
+</view>

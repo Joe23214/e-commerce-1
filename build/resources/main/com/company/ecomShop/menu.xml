@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/flowui/menu">
+
+    <menu id="application" title="msg://com.company.ecomShop/menu.application.title" opened="true">
+        <item view="User.list" title="msg://com.company.ecomShop.view.user/UserListView.title"/>
+        <item view="Ag.list" title="msg://com.company.ecomShop.view.ag/agListView.title"/>
+        <item view="Art.list" title="msg://com.company.ecomShop.view.art/artListView.title"/>
+        <item view="Ae.list" title="msg://com.company.ecomShop.view.ae/aeListView.title"/>
+        <item view="ArticoliClassificazioni.list"
+              title="msg://com.company.ecomShop.view.articoliclassificazioni/articoliClassificazioniListView.title"/>
+        <item view="SecondaPagina" title="msg://com.company.ecomShop.view.secondapagina/secondaPagina.title"/>
+        <item view="Productlistview"
+              title="msg://com.company.ecomShop.view.productlist/productlistview.title"/>
+        <item view="Dettaglioprodotto"
+              title="msg://com.company.ecomShop.view.dettaglioprodotto/dettaglioprodotto.title"/>
+        <item view="Registrazione" title="msg://com.company.ecomShop.view.registrazione/registrazione.title"/>
+        <item view="Comuni.list" title="msg://com.company.ecomShop.view.comuni/comuniListView.title"/>
+        <item view="PdcPassword.list"
+              title="msg://com.company.ecomShop.view.pdcpassword/pdcPasswordListView.title"/>
+        <item view="Pdc.list" title="msg://com.company.ecomShop.view.pdc/pdcListView.title"/>
+        <item view="Volantino" title="msg://com.company.ecomShop.view.volantino/volantino.title"/>
+        <item view="MarketnewstoreArtImg.list"
+              title="msg://com.company.ecomShop.view.marketnewstoreartimg/marketnewstoreArtImgListView.title"/>
+        <item view="SysFile.list" title="msg://com.company.ecomShop.view.sysfile/sysFileListView.title"/>
+        <item view="Passworddimenticata"
+              title="msg://com.company.ecomShop.view.passworddimenticata/passworddimenticata.title"/>
+        <item view="RecuperaPassword"
+              title="msg://com.company.ecomShop.view.recuperapassword/recuperaPassword.title"/>
+        <item view="ArtScheda.list"
+              title="msg://com.company.ecomShop.view.artscheda/artSchedaListView.title"/>
+        <item view="Salmg.list" title="msg://com.company.ecomShop.view.salmg/salmgListView.title"/>
+        <item view="EmailUtente.list"
+              title="msg://com.company.ecomShop.view.emailutente/emailUtenteListView.title"/>
+        <item view="Carrello" title="msg://com.company.ecomShop.view.carrello/carrello.title"/>
+        <item view="PuntiRitiro.list"
+              title="msg://com.company.ecomShop.view.puntiritiro/puntiRitiroListView.title"/>
+        <item view="ConfigEcom.detail"
+              title="msg://com.company.ecomShop.view.configecom/configEcomListView.title"/>
+        <item view="CuponView" title="msg://com.company.ecomshop.view.cupon/cuponView.title"/>
+        <item view="Home" title="msg://com.company.ecomshop.view.provaui/provaui.title"/>
+        <item view="DeviceToken.list" title="msg://com.company.ecomshop.view.devicetoken/deviceTokenListView.title"/>
+        <item view="ecomShop_InvioNotifiche" title="msg://com.company.ecomshop.view.invionotifiche/invioNotifiche.title"/>
+        <item view="Art2.list" title="msg://com.company.ecomshop.view.art2/art2ListView.title"/>
+    </menu>
+
+</menu-config>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://artListView.title"
+      focusComponent="artsDataGrid">
+    <data>
+        <collection id="artsDc"
+                    class="com.company.ecomShop.entity.Art">
+            <fetchPlan extends="_base"/>
+            <loader id="artsDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from Art e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout expand="contentBox"
+    alignItems="STRETCH"
+    padding="false">
+        <genericFilter id="genericFilter"
+                       dataLoader="artsDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <vbox id="contentBox" css="overflow : auto " expand="pannelloGriglia" >
+        <vbox id="pannelloGriglia" classNames="contrast-panel"> <!--ccontrast-panel è una classe css custom -->
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createButton" action="artsDataGrid.create"/>
+            <button id="editButton" action="artsDataGrid.edit"/>
+            <button id="removeButton" action="artsDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="artsDl"/>
+        </hbox>
+        <dataGrid id="artsDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="artsDc"
+                  columnReorderingAllowed="true">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns resizable="true">
+                <column property="codiceArticolo"/>
+                <column property="agenteAbituale"/>
+                <column property="classeEstesa"/>
+                <column property="codClasse0"/>
+                <column property="codClasse1"/>
+                <column property="codClasse2"/>
+                <column property="codClasse3"/>
+                <column property="codClasse4"/>
+                <column property="codClasse5"/>
+                <column property="codClasse6"/>
+                <column property="codClasse7"/>
+                <column property="codClasse8"/>
+                <column property="codClasse9"/>
+                <column property="codiceConfezione"/>
+                <column property="codiceIva"/>
+                <column property="codiceOmaggio"/>
+                <column property="coefUmSec"/>
+                <column property="coeffConversione"/>
+                <column property="contoVendita"/>
+                <column property="createTs"/>
+                <column property="createdBy"/>
+                <column property="dataCreazione"/>
+                <column property="dataUltimoAggio"/>
+                <column property="descrizione"/>
+                <column property="descrizioneCasse"/>
+                <column property="descrizioneSuppl"/>
+                <column property="flagBilancia"/>
+                <column property="flagLibero"/>
+                <column property="flagRegalo"/>
+                <column property="fornitoreAbituale"/>
+                <column property="listinoAcquisto"/>
+                <column property="listinoVendita"/>
+                <column property="multiploRiordino"/>
+                <column property="nRaccoltaPunti"/>
+                <column property="nomeImmagine"/>
+                <column property="note"/>
+                <column property="numeroBollini"/>
+                <column property="numeroOfferta"/>
+                <column property="percScarto"/>
+                <column property="pesoLordo"/>
+                <column property="prezzoCons"/>
+                <column property="quantMultipack"/>
+                <column property="ricarPrezzo"/>
+                <column property="scontoBase"/>
+                <column property="tipoFrontalini"/>
+                <column property="tipoOfferta"/>
+                <column property="umConfezione"/>
+                <column property="umPesoLordo"/>
+                <column property="umPrimaria"/>
+                <column property="umSecondaria"/>
+                <column property="updateTs"/>
+                <column property="updatedBy"/>
+                <column property="version"/>
+            </columns>
+        </dataGrid>
+        </vbox>
+        </vbox>
+        <vbox id="bottoniPrincipali" classNames="px-m py-s bg-contrast-5" padding="true">
+        <hbox id="lookupActions" visible="true"  >
+            <button id="selectButton" action="selectAction"/>
+            <button id="discardButton" action="discardAction"/>
+        </hbox>
+        </vbox>
+
+    </layout>
+</view>

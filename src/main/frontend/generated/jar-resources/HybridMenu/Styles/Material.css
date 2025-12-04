@@ -1,0 +1,52 @@
+[theme~="dark"] {
+	/* General */
+	--hybridmenu-text-color: var(--material-body-text-color);
+	--hybridmenu-primary-color: var(--material-primary-color);
+	--hybridmenu-primary-contrast-color: var(--material-primary-contrast-color);
+	--hybridmenu-secondary-background-color: var(--material-secondary-background-color);
+	
+	/* Left-Menu */
+	--hybridmenu-left-menu-button-background-color: hsla(0, 0%, 100%, 0.3);
+	--hybridmenu-left-menu-button-hover-background-color: hsla(0, 0%, 100%, 0.37);
+	--hybridmenu-left-menu-button-active-background-color: hsla(0, 0%, 100%, 0.44);
+	--hybridmenu-left-menu-border-color: var(--material-disabled-text-color);
+	
+	/* Top-Menu */
+	--hybridmenu-top-menu-button-background-color: var(--hybridmenu-secondary-background-color);
+	--hybridmenu-top-menu-button-hover-background-color: var(--lumo-shade-20pct);
+	
+	/* Notification-Center */
+	--hybridmenu-notification-center-background-color: hsla(214, 45%, 20%, 0.5);
+	--hybridmenu-notification-center-button-background-color: hsla(0, 0%, 100%, 0.64);
+	--hybridmenu-notification-center-notification-shadow-color: hsla(214, 42%, 18%, 0.72);
+	--hybridmenu-notification-center-notification-background-color: hsla(0, 0%, 100%, 0.64);
+	--hybridmenu-notification-center-notification-remove-color: #fff;
+	--hybridmenu-notification-center-notification-remove-background-color: var(--material-error-color);
+}
+
+html {
+	/* General */
+	--hybridmenu-text-color: var(--material-body-text-color);
+	--hybridmenu-primary-color: var(--material-primary-color);
+	--hybridmenu-primary-contrast-color: var(--material-primary-contrast-color);
+	--hybridmenu-secondary-background-color: var(--material-secondary-background-color);
+	
+	/* Left-Menu */
+	--hybridmenu-left-menu-button-background-color: hsla(0, 0%, 100%, 0.37);
+	--hybridmenu-left-menu-button-hover-background-color: hsla(214, 61%, 25%, 0.05);
+	--hybridmenu-left-menu-button-active-background-color: hsla(214, 57%, 24%, 0.1);
+	--hybridmenu-left-menu-active-color: hsl(145, 80%, 42%);
+	--hybridmenu-left-menu-border-color: var(--material-disabled-text-color);
+	
+	/* Top-Menu */
+	--hybridmenu-top-menu-button-background-color: var(--hybridmenu-secondary-background-color);
+	--hybridmenu-top-menu-button-hover-background-color: hsla(214, 57%, 24%, 0.16);
+	
+	/* Notification-Center */
+	--hybridmenu-notification-center-background-color: hsla(214, 45%, 20%, 0.5);
+	--hybridmenu-notification-center-button-background-color: hsla(0, 0%, 100%, 0.64);
+	--hybridmenu-notification-center-notification-shadow-color: hsla(214, 42%, 18%, 0.72);
+	--hybridmenu-notification-center-notification-background-color: hsla(0, 0%, 100%, 0.64);
+	--hybridmenu-notification-center-notification-remove-color: #fff;
+	--hybridmenu-notification-center-notification-remove-background-color: var(--material-error-color);
+}

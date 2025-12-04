@@ -1,0 +1,53 @@
+[theme~="dark"] {
+	/* General */
+	--hybridmenu-text-color: var(--lumo-body-text-color);
+	--hybridmenu-primary-color: var(--lumo-primary-color);
+	--hybridmenu-primary-contrast-color: var(--lumo-primary-contrast-color);
+	--hybridmenu-secondary-background-color: var(--lumo-shade-10pct);
+	
+	/* Left-Menu */
+	--hybridmenu-left-menu-button-background-color: var(--lumo-tint-5pct);
+	--hybridmenu-left-menu-button-hover-background-color: var(--lumo-tint-10pct);
+	--hybridmenu-left-menu-button-active-background-color: var(--lumo-tint-20pct);
+	--hybridmenu-left-menu-active-color: var(--lumo-success-color);
+	--hybridmenu-left-menu-border-color: var(--lumo-tint-30pct);
+	
+	/* Top-Menu */
+	--hybridmenu-top-menu-button-background-color: var(--lumo-shade-10pct);
+	--hybridmenu-top-menu-button-hover-background-color: var(--lumo-shade-20pct);
+	
+	/* Notification-Center */
+	--hybridmenu-notification-center-background-color: var(--lumo-shade-50pct);
+	--hybridmenu-notification-center-button-background-color: var(--lumo-shade-20pct);
+	--hybridmenu-notification-center-notification-shadow-color: var(--lumo-tint-70pct);
+	--hybridmenu-notification-center-notification-background-color: var(--lumo-shade-50pct);
+	--hybridmenu-notification-center-notification-remove-color: var(--lumo-error-contrast-color);
+	--hybridmenu-notification-center-notification-remove-background-color: var(--lumo-error-color);
+}
+
+html {
+	/* General */
+	--hybridmenu-text-color: var(--lumo-body-text-color);
+	--hybridmenu-primary-color: var(--lumo-primary-color);
+	--hybridmenu-primary-contrast-color: var(--lumo-primary-contrast-color);
+	--hybridmenu-secondary-background-color: var(--lumo-shade-10pct);
+	
+	/* Left-Menu */
+	--hybridmenu-left-menu-button-background-color: var(--lumo-tint-10pct);
+	--hybridmenu-left-menu-button-hover-background-color: var(--lumo-shade-5pct);
+	--hybridmenu-left-menu-button-active-background-color: var(--lumo-shade-10pct);
+	--hybridmenu-left-menu-active-color: var(--lumo-success-color);
+	--hybridmenu-left-menu-border-color: var(--lumo-tint-30pct);
+	
+	/* Top-Menu */
+	--hybridmenu-top-menu-button-background-color: var(--lumo-shade-10pct);
+	--hybridmenu-top-menu-button-hover-background-color: var(--lumo-shade-20pct);
+	
+	/* Notification-Center */
+	--hybridmenu-notification-center-background-color: var(--lumo-shade-50pct);
+	--hybridmenu-notification-center-button-background-color: var(--lumo-tint-50pct);
+	--hybridmenu-notification-center-notification-shadow-color: var(--lumo-shade-70pct);
+	--hybridmenu-notification-center-notification-background-color: var(--lumo-tint-50pct);
+	--hybridmenu-notification-center-notification-remove-color: var(--lumo-error-contrast-color);
+	--hybridmenu-notification-center-notification-remove-background-color: var(--lumo-error-color);
+}

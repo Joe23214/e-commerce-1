@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view" xmlns:search="http://jmix.io/schema/search/ui"
+      title="msg://dettaglioprodotto.title">
+    <layout width="100%">
+<!--        <p  alignSelf="CENTER"  text="msg:// listino 3 : sono i prezzi compreso iva a cartone . Listino 2 : sono i prezzi compreso iva per ordini di minimo 10 cartoni . ( questo quando si fa accesso per partita iva)"/>-->
+        <div id="header" classNames="header">
+            <div classNames="navigazione">
+                <!-- Contenitore del logo -->
+                <div classNames="contenitoreLogo">
+                    <image id="logo" classNames="logo"  />
+                </div>
+<!--                <div id="bottoneToggle">-->
+<!--                    <button id="menuToggle" classNames="menuToggle" text="msg://☰"/>-->
+<!--                </div>-->
+
+                <!-- Bottone Hamburger -->
+                <button id="menuToggle" visible="false" classNames="authButtons" text="☰"/>
+<!--                <div id="searchBox" classNames="searchBox">-->
+<!--                    <search:searchField id="searchField" maxWidth="50%" classNames="searchField"  placeholder="Cerca..." settingsButtonVisible="false"/>-->
+<!--                </div>-->
+
+                <!-- Pulsanti Accedi e Registrati -->
+                <div id="authButton" classNames="authButtons">
+                    <button id="logOut" text="msg://Log Out" visible="false" classNames="authButton"/>
+                    <button id="accedi" text="msg://Accedi" classNames="authButton"/>
+                    <button id="registrati" text="msg://Registrati" classNames="authButton"/>
+                    <button  id="Home" text="msg://Home" classNames="authButton"/>
+<!--                    <button text="msg://About" classNames="authButton"/>-->
+                    <hbox width="100%" id="socialicons1"/>
+                    <button id="promoBottone" text="msg://I miei coupon" icon="vaadin:ticket" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                    <button id="CarrelloIcona" classNames="CarrelloIcona" text="msg://Il mio carrello" icon="CART" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                    <button id="adminHamburger" text="☰" visible="false"  css="cursor:pointer; font-size:20px; background-color: #5abd84; color:white;" />
+                    <vbox id="adminMenu" visible="false" css=" position: absolute; top: 15%; left:50%;background-color: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; width:50%">
+                        <button id="invioNotifiche" text="msg://Invia le notifiche agli utenti" icon="vaadin:file-sound" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                        <button id="UtentiRegistrati" text="msg://Utenti Registrati" icon="vaadin:user" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                        <button id="configEcom" text="msg://Impostazioni" icon="vaadin:controller" css="cursor: pointer; background-color: #5abd84; color:white; width:100%;" />
+                    </vbox>
+                </div>
+            </div>
+
+            <!-- Menu di navigazione -->
+
+        </div>
+
+        <flexLayout id="idDivProdotti" classNames="dettaglio">
+
+        </flexLayout>
+
+        <div id="piede" classNames="footer"/>
+
+        <!-- Menu di navigazione -->
+    </layout>
+</view>

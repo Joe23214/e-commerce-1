@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view" xmlns:search="http://jmix.io/schema/search/ui"
+      title="msg://registrazione.title">
+    <data>
+        <collection id="comunisDc"
+                    class="com.company.ecomShop.entity.Comuni">
+            <fetchPlan extends="_base"/>
+            <loader id="comunisDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from Comuni e order by e.provincia]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <layout>
+
+
+
+
+
+        <div id="header" classNames="header">
+            <div classNames="navigazione">
+                <!-- Contenitore del logo -->
+<!--                <div id="bottoneToggle">-->
+<!--                    <button id="menuToggle" classNames="menuToggle" text="msg://☰"/>-->
+<!--                </div>-->
+                <div classNames="contenitoreLogo">
+                    <image id="logo" classNames="logo"  />
+                </div>
+
+                <!-- Barra di ricerca -->
+<!--                <div id="searchBox" classNames="searchBox">-->
+<!--                    <search:searchField id="searchField" maxWidth="50%" classNames="searchField"  placeholder="Cerca..." settingsButtonVisible="false"/>-->
+<!--                </div>-->
+
+                <!-- Pulsanti Accedi e Registrati -->
+                <div id="authButton" classNames="authButtons">
+<!--                    <button text="msg://Accedi" classNames="authButton"/>-->
+<!--                    <button text="msg://Registrati" classNames="authButton"/>-->
+                    <button id="Home" text="msg://Home" classNames="authButton"/>
+<!--                    <button text="msg://About" classNames="authButton"/>-->
+                    <hbox id="socialicons1"/>
+                </div>
+            </div>
+
+            <!-- Menu di navigazione -->
+
+        </div>
+        <formLayout  classNames="dettaglioRegistrazione">
+
+
+
+                <textField id="usernameField" classNames="textField" width="100%" label="msg://Username   (Obbligatorio)"  />
+                <emailField id="email"  classNames="textField" width="100%" label="msg://Indirizzo e-mail   (Obbligatorio)"/>
+                <passwordField id="password" classNames="textField" width="100%" label="msg://Password   (Obbligatorio)"/>
+
+                <passwordField  id="password1" classNames="textField" width="100%" label="msg://Conferma Password   (Obbligatorio)"/>
+                <numberField id="nTel" width="100%" classNames="textField" label="msg://Numero di Telefono   (Obbligatorio)"/>
+
+                <textField id="nome" width="100%" classNames="textField" label="msg://Nome   (Obbligatorio)"/>
+                <textField id="cognome" width="100%" label="msg://Cognome   (Obbligatorio)"/>
+
+                <textField id="rSociale" width="100%" classNames="textField" label="msg://Ragione Sociale  (Obbligatorio)"/>
+                <textField id="indirizzo1" width="100%" classNames="textField" label="msg://Indirizzo1   (Obbligatorio)"/>
+                 <textField id="civico" width="100%" required="true" classNames="textField" label="msg://Civico   (Obbligatorio)"/>
+
+                <textField id="indirizzo2" width="100%" classNames="textField" label="msg://Indirizzo2 "/>
+                <comboBox id="stato" width="100%" classNames="comboBox" label="msg://Stato   (Obbligatorio)"/>
+
+                <comboBox id="provincia" width="100%" classNames="comboBox" label="msg://Provincia (Obbgligatorio) "/>
+                <comboBox id="citta" width="100%" classNames="textField" label="msg://Città   (Obbligatorio)"/>
+
+                <textField id="cap" maxLength="5"   width="100%" classNames="textField" label="msg://Cap (Obbgligatorio) "/>
+                <textField id="pIva" width="100%" maxLength="12" classNames="textField" label="msg://P.Iva (Obbligatorio)"/>
+                <textField id="pecCliente" width="100%" classNames="textField" label="msg://Pec Cliente (Obbligatorio)"/>
+                <p/>
+            <h4 text="msg://Campi consegna a domicilio" css="width:100%" > </h4>
+            <hbox>
+                <textField label="msg://Piano" id="piano" classNames="textField"   ></textField>
+                <textField label="msg://Scala" id="scala" classNames="textField"   ></textField>
+                <textField label="msg://Citofono" id="citofono" classNames="textField"   ></textField>
+            </hbox>
+            <p/>
+                <h4 text="msg://Campi Fatturazione"/>
+                <p/>
+                <textField id="pec" width="100%" classNames="textField" label="msg://Pec "/>
+                <textField id="sdi" maxLength="7" width="100%" classNames="textField" label="msg://Sdi  "/>
+            <vbox >
+                <hbox>
+
+                    <checkbox id="checkNormativa" />
+
+<!--                    <p classNames="paragrafoCheckBox" text="msg://Ho preso visione dell'informativa privacy,acconsento al trattamento dei miei dati personali (Obbligatorio)"/>-->
+                    <button id="infoPrivacy" classNames="bottoneDocumento" text="msg://Documento"/>
+
+
+                </hbox>
+                <p id="spunta1" visible="false"/>
+                <vbox>
+
+                    <checkbox id="riceviEmail" label="msg://Accetti di ricevere Aggiornamenti Trameite Email"/>
+                    <p id="spunta2" visible="false"/>
+
+
+
+
+                </vbox>
+
+
+
+                <checkboxGroup id="listinoUtente" label="msg://Registrati Come (Obbligatorio)"/>
+                <p text="msg://Il listino 2 comprende i prezzi compreso iva se verrai con il tuo automezzo a caricare dal nostro magazzino presente a Modugno in viale dell'artigianato seconda traversa a destra.
+
+Il listino 3 comprende i prezzi compreso iva , consegnati alla tua attività secondo il piano logistico e le zone coperte dal servizio concordato con l'agente di zona. Per qualsiasi informazioni contattare sempre il 3479456912 tramite whatzupp oppure inviare una mail a: gio58.mondelli@libero.it
+ Dott. Marco Mondelli"/>
+                <button  id="registrati" text="msg://Registrati" classNames="bottoneRegistrati"/>
+
+            </vbox>
+
+            <div id="piede" classNames="footer"/>
+
+        </formLayout>
+
+
+    </layout>
+</view>

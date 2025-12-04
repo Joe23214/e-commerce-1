@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseDriversConfigurationState">
+    <drivers>
+      <db-driver id="com.mysql.cj.jdbc.Driver" version="8.2.0" />
+      <db-driver id="org.postgresql.Driver" version="42.7.3" />
+      <db-driver id="org.hsqldb.jdbc.JDBCDriver">
+        <library url="/C:/Users/utente/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.7.3/85b49338b36f3051d217295596cf92beb92e4bfb/hsqldb-2.7.3.jar" />
+      </db-driver>
+      <db-driver id="com.microsoft.sqlserver.jdbc.SQLServerDriver">
+        <library url="/C:/Users/giova/.gradle/caches/modules-2/files-2.1/com.microsoft.sqlserver/mssql-jdbc/12.6.4.jre11/e2148efde31a381f9ec66eeebc2f4ea32d4ad67e/mssql-jdbc-12.6.4.jre11.jar" />
+      </db-driver>
+    </drivers>
+  </component>
+</project>

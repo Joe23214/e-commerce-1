@@ -1,0 +1,297 @@
+/* Define your styles here */
+
+html {
+  --secondary-base-color: #f4f5f7;
+  background-color: var(--secondary-base-color);
+
+    --lumo-primary-text-color: rgb(200, 195, 213);
+    --lumo-primary-color-50pct: rgba(200, 195, 213, 0.5);
+    --lumo-primary-color-10pct: rgba(200, 195, 213, 0.1);
+    --lumo-primary-color: #6cc3d5;
+
+    --vaadin-button-background: var(--lumo-base-color);
+    --vaadin-button-text-color: var(--lumo-body-test-color);
+
+}
+
+.contrast-panel {
+   background-color: var(--lumo-base-color); /* #68b545;  var(--lumo-base-color);*/
+   border-radius: var(--lumo-border-radius-m);
+
+   --vaadin-button-background: var(--secondary-base-color);
+}
+
+.cssoverflow {
+  overflow: auto;
+}
+
+.grid {
+  display :grid;
+  width :100%;
+  grid-gap: var(--lumo-space-m);
+  grid-template-columns: repeat( auto-fit,minmax(25rem,1fr));
+}
+@media (max-width: 480px) {
+    .grid {
+      display :grid;
+      width :100%;
+      grid-gap: var(--lumo-space-m);
+      grid-template-columns: repeat( auto-fit,minmax(150px,1fr));
+}
+
+}
+.button {
+        box-shadow: var(--lumo-box-shadow-xl);
+ /*
+      .shadow.s {
+        box-shadow: var(--lumo-box-shadow-s);
+      }
+      .shadow.m {
+        box-shadow: var(--lumo-box-shadow-m);
+      }
+      .shadow.l {
+        box-shadow: var(--lumo-box-shadow-l);
+      }
+      .shadow.xl {
+        box-shadow: var(--lumo-box-shadow-xl);
+        width: calc(var(--lumo-size-xl) * 1.2);
+        height: calc(var(--lumo-size-xl) * 1.2);
+      }*/
+}
+
+
+/* ********************************************** */
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.bodyK {
+  /*background: linear-gradient(
+    335deg,
+    rgba(170, 170, 170, 1) 0%,
+    rgba(240, 240, 240, 1) 50%
+  );*/
+  background: #D7BE82;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  user-select: none;
+}
+
+.mainK {
+  /*background: linear-gradient(
+    335deg,
+    rgba(170, 170, 170, 1) 0%,
+    rgba(240, 240, 240, 1) 50%
+  );*/
+  background: #D7BE82;
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  user-select: none;
+}
+
+.titleK {
+  color: rgba(250, 0, 340, 0.8);
+  font-size: 1.2vmax;
+  margin: 0rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: calc(65% - 4rem);
+}
+
+.overflowK {
+  width: 65%;
+  height: 58%;
+  padding: 0 1.1vmax;
+  margin: 0;
+  box-shadow: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overflowK.animation-reveal {
+  animation: reveal 1s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.strip_of {
+  background-color: #D7BE82;
+  height: 58%;
+  width: 1.1rem;
+  z-index: 99;
+  position: absolute;
+}
+.strip_of.paper1 {
+  transform: translate(-31vw, 0%);
+}
+.strip_of.paper2 {
+  transform: translate(31vw, 0%);
+}
+.strip_of.invisible {
+  visibility: hidden;
+}
+
+.carouselK {
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  margin: 0;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.sliderK {
+  width: 100%;
+  height: 100%;
+}
+
+.cardK {
+  margin: 0 0.15rem;
+  overflow: hidden;
+  border-radius: 0px;
+  height: 50vh;
+  width: 24.6%;
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  cursor: pointer;
+  transition: width 0.16s ease-in-out, height 0.16s ease-in-out;
+  transition: 0.2s ease;
+  font-size: 1vmax;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardK:nth-of-type(5) {
+  font-size: 0.9vmax;
+}
+.cardK .location {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, transparent 50%);
+  position: absolute;
+  transform: translate(0%, 100%);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.cardK .location:hover {
+  color: white;
+  transition: 0.2s ease;
+}
+.cardK.is-selected {
+  transform: scale(1.05);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
+  transition: 0.2s ease;
+}
+
+.card-bgK {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.card-bgK.nono {
+  background-position: center;
+  background-size: 300px;
+  background-color: #191925;
+  background-repeat: no-repeat;
+}
+
+.buttonK {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  z-index: 100;
+  /*position: absolute;*/
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 35, 0.25);
+  color: #333;
+  font-size: 1rem;
+  transition: 0.2s ease;
+  display: block;
+}
+.buttonKx.previous {
+  transform: translate(-30vw, 0%);
+}
+.buttonKx.next {
+  transform: translate(30vw, 0%);
+}
+.buttonK:focus {
+  transition: 0.2s ease;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 7px 7px 0 rgba(0, 0, 35, 0.25);
+}
+.buttonK i {
+  outline: none;
+  text-decoration: none;
+  background-color: #fff;
+}
+.buttonK i:focus {
+  outline: none;
+  border: none;
+}
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus {
+  outline: none;
+}
+
+.flickity-viewport {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  transform: translate(0%, 8%);
+  vertical-align: middle;
+}
+
+.flickity-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

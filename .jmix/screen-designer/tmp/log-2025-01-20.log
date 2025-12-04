@@ -1,0 +1,104 @@
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeInitializer: Starting dev-mode updaters in C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer folder.
+Mon Jan 20 17:02:42 CET 2025 INFO - com.vaadin.flow.server.frontend.scanner.FullDependenciesScanner: Visited 118 classes. Took 31 ms.
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyRequiredFiles
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGeneratePackageJson
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexHtml
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexTs
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateReactFiles
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateOldIndexTs
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateViteDevMode
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsConfig
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsDefinitions
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateServiceWorker
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateBootstrap
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateFeatureFlags
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskInstallFrontendBuildPlugins
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdatePackages
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskRunNpmInstall
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskUpdatePackages: Skipping `pnpm install install` because the frontend packages are already installed in the folder 'C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules' and the hash in the file 'C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.vaadin\vaadin.json' is the same as in 'package.json'
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyFrontendFiles
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Copying frontend resources from jar files ...
+Mon Jan 20 17:02:42 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Mon Jan 20 17:02:42 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Mon Jan 20 17:02:42 CET 2025 WARN - com.vaadin.flow.server.communication.JSR356WebsocketInitializer: Atmosphere already initialized
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Visited 2 resources. Took 239 ms.
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyLocalFrontendFiles
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyLocalFrontendFiles: Found no local frontend resources for the project
+Mon Jan 20 17:02:42 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateSettingsFile
+Mon Jan 20 17:02:43 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateVite
+Mon Jan 20 17:02:43 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateImports
+Mon Jan 20 17:02:43 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateThemeImport
+Mon Jan 20 17:02:43 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeStartupListener: Waiting for a VaadinServlet to be deployed
+Mon Jan 20 17:02:46 CET 2025 INFO - com.vaadin.flow.server.DefaultDeploymentConfiguration: 
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+Mon Jan 20 17:02:46 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Starting Vite
+Mon Jan 20 17:02:46 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using node 20.15.1 located at C:\Program Files\nodejs\node.exe
+Mon Jan 20 17:02:48 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using npm 10.7.0 located at C:\Program Files\nodejs\npm.cmd
+Mon Jan 20 17:02:48 CET 2025 INFO - io.jmix.flowui.devserver.ViteHandler: Starting Vite using: C:\Program Files\nodejs\node.exe C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\vite\bin\vite.js --config C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\vite.config.ts --port 49855 --base /VAADIN/
+
+------------------ Starting Frontend compilation. ------------------
+
+C:\Program Files\nodejs\node.exe \ 
+    .\node_modules\vite\bin\vite.js --config \ 
+    .\vite.config.ts --port 49855 --base /VAADIN/ 
+Mon Jan 20 17:02:48 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Running Vite to compile frontend resources. This may take a moment, please stand by...
+Mon Jan 20 17:03:12 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Mon Jan 20 17:03:12 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   VITE v5.4.8  ready in 23858 ms
+
+----------------- Frontend compiled successfully. -----------------
+
+Mon Jan 20 17:03:12 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Mon Jan 20 17:03:12 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Started Vite. Time: 26494 ms
+Mon Jan 20 17:03:12 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   ➜  Local:   http://127.0.0.1:49855/VAADIN/
+Mon Jan 20 17:03:17 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Mon Jan 20 17:03:17 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: [TypeScript] Found 0 errors. Watching for file changes.
+Mon Jan 20 17:06:55 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 17:06:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 17:06:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:06:55 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 17:07:49 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 17:07:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 17:07:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:07:49 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 17:08:45 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 17:08:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 17:08:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:08:45 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 17:09:47 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 17:09:47 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 17:09:47 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:09:47 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 17:11:09 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 17:11:09 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 17:11:09 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:11:09 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:00:01 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:00:01 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:00:02 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:00:02 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:15:08 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:15:08 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:15:08 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:15:08 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:15:27 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:15:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:15:28 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:15:28 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:23:19 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:23:19 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:23:19 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:23:19 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:25:48 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:25:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:25:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:25:49 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:32:25 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:32:25 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:32:25 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:32:25 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:33:13 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:33:13 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:33:13 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:33:13 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:36:30 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:36:30 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:36:30 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:36:30 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:44:45 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:44:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:44:45 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:44:45 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:53:54 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:53:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:53:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:53:54 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:54:06 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Mon Jan 20 18:54:06 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Mon Jan 20 18:54:06 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:54:06 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css
+Mon Jan 20 18:54:06 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/view/main-view-top-menu.css changed
+Mon Jan 20 18:54:06 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:54:06 [vite] hmr update /generated/theme-jmixprogettostudio.generated.js, /themes/jmixprogettostudio/styles.css

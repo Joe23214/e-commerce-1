@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
+      title="msg://comuniListView.title"
+      focusComponent="comunisDataGrid">
+    <data>
+        <collection id="comunisDc"
+                    class="com.company.ecomShop.entity.Comuni">
+            <fetchPlan extends="_base"/>
+            <loader id="comunisDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from Comuni e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+        <urlQueryParameters>
+            <genericFilter component="genericFilter"/>
+            <pagination component="pagination"/>
+        </urlQueryParameters>
+    </facets>
+    <actions>
+        <action id="selectAction" type="lookup_select"/>
+        <action id="discardAction" type="lookup_discard"/>
+    </actions>
+    <layout>
+        <genericFilter id="genericFilter"
+                       dataLoader="comunisDl">
+            <properties include=".*"/>
+        </genericFilter>
+        <hbox id="buttonsPanel" classNames="buttons-panel">
+            <button id="createButton" action="comunisDataGrid.create"/>
+            <button id="editButton" action="comunisDataGrid.edit"/>
+            <button id="removeButton" action="comunisDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="comunisDl"/>
+        </hbox>
+        <dataGrid id="comunisDataGrid"
+                  width="100%"
+                  minHeight="20em"
+                  dataContainer="comunisDc"
+                  columnReorderingAllowed="true">
+            <actions>
+                <action id="create" type="list_create"/>
+                <action id="edit" type="list_edit"/>
+                <action id="remove" type="list_remove"/>
+            </actions>
+            <columns resizable="true">
+                <column property="codice"/>
+                <column property="cap"/>
+                <column property="comune"/>
+                <column property="createTs"/>
+                <column property="createdBy"/>
+                <column property="nazione"/>
+                <column property="provincia"/>
+                <column property="regione"/>
+                <column property="updateTs"/>
+                <column property="updatedBy"/>
+                <column property="version"/>
+            </columns>
+        </dataGrid>
+        <hbox id="lookupActions" visible="false">
+            <button id="selectButton" action="selectAction"/>
+            <button id="discardButton" action="discardAction"/>
+        </hbox>
+    </layout>
+</view>

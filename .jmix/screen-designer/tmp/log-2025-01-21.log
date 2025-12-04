@@ -1,0 +1,352 @@
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeInitializer: Starting dev-mode updaters in C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer folder.
+Tue Jan 21 15:51:13 CET 2025 INFO - com.vaadin.flow.server.frontend.scanner.FullDependenciesScanner: Visited 118 classes. Took 27 ms.
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyRequiredFiles
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGeneratePackageJson
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexHtml
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateIndexTs
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateReactFiles
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateOldIndexTs
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateViteDevMode
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsConfig
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateTsDefinitions
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateServiceWorker
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateBootstrap
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskGenerateFeatureFlags
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskInstallFrontendBuildPlugins
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdatePackages
+Tue Jan 21 15:51:13 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskRunNpmInstall
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskUpdatePackages: Skipping `pnpm install install` because the frontend packages are already installed in the folder 'C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules' and the hash in the file 'C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.vaadin\vaadin.json' is the same as in 'package.json'
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyFrontendFiles
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Copying frontend resources from jar files ...
+Tue Jan 21 15:51:13 CET 2025 INFO - com.vaadin.flow.server.startup.ServletDeployer: Skipping automatic servlet registration because there is already a Vaadin servlet with the name io.jmix.flowui.devserver.servlet.JmixVaadinServlet
+Tue Jan 21 15:51:13 CET 2025 WARN - com.vaadin.flow.server.communication.JSR356WebsocketInitializer: Atmosphere already initialized
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyFrontendFiles: Visited 2 resources. Took 207 ms.
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskCopyLocalFrontendFiles
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.TaskCopyLocalFrontendFiles: Found no local frontend resources for the project
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateSettingsFile
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateVite
+Tue Jan 21 15:51:13 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateImports
+Tue Jan 21 15:51:14 CET 2025 INFO - io.jmix.flowui.devserver.frontend.NodeTasks: Executing task: TaskUpdateThemeImport
+Tue Jan 21 15:51:14 CET 2025 INFO - io.jmix.flowui.devserver.startup.DevModeStartupListener: Waiting for a VaadinServlet to be deployed
+Tue Jan 21 15:51:16 CET 2025 INFO - com.vaadin.flow.server.DefaultDeploymentConfiguration: 
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+Tue Jan 21 15:51:16 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Starting Vite
+Tue Jan 21 15:51:16 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using node 20.15.1 located at C:\Program Files\nodejs\node.exe
+Tue Jan 21 15:51:19 CET 2025 INFO - io.jmix.flowui.devserver.frontend.FrontendTools: Using npm 10.7.0 located at C:\Program Files\nodejs\npm.cmd
+Tue Jan 21 15:51:20 CET 2025 INFO - io.jmix.flowui.devserver.ViteHandler: Starting Vite using: C:\Program Files\nodejs\node.exe C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\vite\bin\vite.js --config C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\vite.config.ts --port 65386 --base /VAADIN/
+
+------------------ Starting Frontend compilation. ------------------
+
+C:\Program Files\nodejs\node.exe \ 
+    .\node_modules\vite\bin\vite.js --config \ 
+    .\vite.config.ts --port 65386 --base /VAADIN/ 
+Tue Jan 21 15:51:20 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Running Vite to compile frontend resources. This may take a moment, please stand by...
+Tue Jan 21 15:51:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Tue Jan 21 15:51:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   VITE v5.4.8  ready in 28066 ms
+
+----------------- Frontend compiled successfully. -----------------
+
+Tue Jan 21 15:51:48 CET 2025 INFO - io.jmix.flowui.devserver.AbstractDevServerRunner: Started Vite. Time: 32088 ms
+Tue Jan 21 15:51:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Tue Jan 21 15:51:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   ➜  Local:   http://127.0.0.1:65386/VAADIN/
+Tue Jan 21 15:51:52 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 
+Tue Jan 21 15:51:52 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: [TypeScript] Found 0 errors. Watching for file changes.
+Tue Jan 21 16:43:41 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 16:43:41 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 16:43:41 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 16:43:41 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 16:58:43 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 16:58:43 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 16:58:43 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 16:58:43 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:08:45 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:08:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:08:46 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:08:46 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:16:02 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:16:02 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:16:02 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:16:02 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:27:01 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:27:01 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:27:01 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:27:01 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:34:38 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:34:38 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:34:38 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:34:38 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:34:53 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:34:53 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:34:53 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:34:53 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:36:43 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:36:43 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:36:43 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:36:43 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:38:49 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:38:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:38:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:38:49 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:39:08 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:39:08 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:39:08 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:39:08 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/styles.css changed
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:3:0
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1  |  /* Define your styles here */
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   2  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   3  |  html {
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |  ^
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   4  |  --secondary-base-color:   #fcfcfc; /* #81D4FA;*/
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   5  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.unclosedBlock (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:573:22)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.endFile (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:335:35)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:474:10)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async resolveImportId (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:800:27)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:3:0
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1  |  /* Define your styles here */
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   2  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   3  |  html {
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |  ^
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   4  |  --secondary-base-color:   #fcfcfc; /* #81D4FA;*/
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   5  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.unclosedBlock (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:573:22)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.endFile (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:335:35)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:474:10)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async resolveImportId (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:800:27)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:3:0
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1  |  /* Define your styles here */
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   2  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   3  |  html {
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |  ^
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   4  |  --secondary-base-color:   #fcfcfc; /* #81D4FA;*/
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   5  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.unclosedBlock (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:573:22)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.endFile (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:335:35)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:474:10)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async resolveImportId (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:800:27)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:26 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:3:0
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1  |  /* Define your styles here */
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   2  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   3  |  html {
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |  ^
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   4  |  --secondary-base-color:   #fcfcfc; /* #81D4FA;*/
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   5  |  
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.unclosedBlock (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:573:22)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.endFile (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:335:35)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:474:10)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 17:55:26 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async resolveImportId (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:800:27)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:54 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:54 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:3:0
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1  |  /* Define your styles here */
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   2  |  
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   3  |  html {
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |  ^
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   4  |  --secondary-base-color:   #fcfcfc; /* #81D4FA;*/
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   5  |  
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.unclosedBlock (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:573:22)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.endFile (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:335:35)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:474:10)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async resolveImportId (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:800:27)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:54 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:55:54 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:3:1: Unclosed block
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:3:0
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   1  |  /* Define your styles here */
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   2  |  
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   3  |  html {
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |  ^
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   4  |  --secondary-base-color:   #fcfcfc; /* #81D4FA;*/
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   5  |  
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.unclosedBlock (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:573:22)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.endFile (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:335:35)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:474:10)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 17:55:54 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async resolveImportId (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:800:27)
+Tue Jan 21 17:56:11 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:56:11 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:56:11 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:56:11 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:59:52 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 17:59:52 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 17:59:52 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:59:52 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 17:59:52 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/styles.css changed
+Tue Jan 21 17:59:52 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 17:59:52 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:00:59 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:00:59 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:00:59 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: Ignoring not existing file C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\view\main-view.css. File may have been deleted during theme processing.
+Tue Jan 21 18:00:59 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:00:59 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:03:36 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:03:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:03:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:03:36 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:03:49 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:03:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:03:49 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:03:49 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:04 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:04:04 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:04:04 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:04 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:04 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/view/main-view-top-menu.css changed
+Tue Jan 21 18:04:04 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:04 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:16 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:04:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:04:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:16 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/styles.css changed
+Tue Jan 21 18:04:16 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:16 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:29 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:04:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:04:29 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:29 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:30 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/styles.css changed
+Tue Jan 21 18:04:30 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:30 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:39 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:04:39 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:04:39 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:39 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:04:48 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:04:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:04:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:04:48 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:05:12 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:05:12 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:05:12 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:05:12 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:05:48 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:05:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:05:48 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:05:48 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:35 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:35 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:243:22: Missed semicolon
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:243:21
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   241|      padding: 20px;
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   242|      overflow-y: auto; /* Scroll verticale */
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   243|      overflow-x:hidden 
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                       ^
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   244|      box-sizing: border-box; /* Assicura che padding e bordo siano inclusi nella larghezza/altezza */
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   245|  }
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:35 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:243:22: Missed semicolon
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:35 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:243:22: Missed semicolon
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:243:21
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   241|      padding: 20px;
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   242|      overflow-y: auto; /* Scroll verticale */
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   243|      overflow-x:hidden 
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                       ^
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   244|      box-sizing: border-box; /* Assicura che padding e bordo siano inclusi nella larghezza/altezza */
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   245|  }
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 18:08:35 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:36 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:36 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:243:22: Missed semicolon
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:243:21
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   241|      padding: 20px;
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   242|      overflow-y: auto; /* Scroll verticale */
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   243|      overflow-x:hidden
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                       ^
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   244|      box-sizing: border-box; /* Assicura che padding e bordo siano inclusi nella larghezza/altezza */
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   245|  }
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:36 [vite] Internal server error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:243:22: Missed semicolon
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   Plugin: vite:css
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   File: C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css:243:21
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   241|      padding: 20px;
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   242|      overflow-y: auto; /* Scroll verticale */
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   243|      overflow-x:hidden
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:      |                       ^
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   244|      box-sizing: border-box; /* Assicura che padding e bordo siano inclusi nella larghezza/altezza */
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:   245|  }
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Input.error (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\input.js:109:16)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.checkMissedSemicolon (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:138:22)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.decl (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:296:12)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.other (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:399:18)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Parser.parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parser.js:470:16)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at parse (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\parse.js:11:12)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at get root [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:119:14)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at Result.get [as root] (C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\node_modules\.pnpm\postcss@8.5.1\node_modules\postcss\lib\no-work-result.js:27:21)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at loadImportContent (file:///C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/node_modules/.pnpm/vite@5.4.8_terser@5.37.0/node_modules/vite/dist/node/chunks/dep-B7_zXWZq.js:867:33)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker:       at async Promise.all (index 0)
+Tue Jan 21 18:08:36 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:36 [vite] Pre-transform error: [postcss] postcss-import: C:\Users\utente\IdeaProjects\jmixprogettostudio\.jmix\screen-designer\frontend\themes\jmixprogettostudio\jmixprogettostudio.css:243:22: Missed semicolon
+Tue Jan 21 18:08:55 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:08:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:08:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:55 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:08:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:08:55 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:08:55 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:09:56 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:09:56 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:09:56 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:09:56 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:12:18 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:12:18 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:12:18 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:12:18 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js
+Tue Jan 21 18:13:47 CET 2025 INFO - io.jmix.flowui.devserver.DevModeHandlerManagerImpl: Synchronizing themes folder...
+Tue Jan 21 18:13:47 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker.Reloader: Recompiling because C:/Users/utente/IdeaProjects/jmixprogettostudio/.jmix/screen-designer/frontend/themes/jmixprogettostudio/jmixprogettostudio.css changed
+Tue Jan 21 18:13:47 CET 2025 INFO - io.jmix.flowui.devserver.DevServerOutputTracker: 18:13:47 [vite] hmr update /themes/jmixprogettostudio/styles.css, /generated/theme-jmixprogettostudio.generated.js

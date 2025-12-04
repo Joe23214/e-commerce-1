@@ -1,0 +1,105 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://artDetailView.title"
+      >
+    <data>
+        <instance id="artDc"
+                  class="com.company.ecomShop.entity.Art">
+            <fetchPlan extends="_base"/>
+            <loader id="artDl"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+
+
+        <div classNames="grid-panel"> <!--alternativa responsive alla formlayout va customizzato nel css a mano -->
+
+            <vbox id="primaDivisione" classNames="contrast-panel">
+                <h3 text="Prima divisione"/>
+                <formLayout id="Info1" dataContainer="artDc">
+            <textField id="codiceArticoloField" property="codiceArticolo"/>
+            <textField id="agenteAbitualeField" property="agenteAbituale"/>
+            <textField id="classeEstesaField" property="classeEstesa"/>
+            <textField id="codClasse0Field" property="codClasse0"/>
+            <textField id="codClasse1Field" property="codClasse1"/>
+            <textField id="codClasse2Field" property="codClasse2"/>
+            <textField id="codClasse3Field" property="codClasse3"/>
+            <textField id="codClasse4Field" property="codClasse4"/>
+            <textField id="codClasse5Field" property="codClasse5"/>
+            <textField id="codClasse6Field" property="codClasse6"/>
+            <textField id="codClasse7Field" property="codClasse7"/>
+            <textField id="codClasse8Field" property="codClasse8"/>
+            <textField id="codClasse9Field" property="codClasse9"/>
+            <textField id="codiceConfezioneField" property="codiceConfezione"/>
+            <textField id="codiceIvaField" property="codiceIva"/>
+            <textField id="codiceOmaggioField" property="codiceOmaggio"/>
+            <textField id="coefUmSecField" property="coefUmSec"/>
+            <textField id="coeffConversioneField" property="coeffConversione"/>
+            <textField id="contoVenditaField" property="contoVendita"/>
+            <dateTimePicker id="createTsField" property="createTs"/>
+                </formLayout>
+            </vbox>
+
+            <vbox id="secondaDivisione" classNames="contrast-panel">
+                <h3 text="Seconda divisione"/>
+                <formLayout id="Info2" dataContainer="artDc">
+            <textField id="createdByField" property="createdBy"/>
+            <textField id="dataCreazioneField" property="dataCreazione"/>
+            <textField id="dataUltimoAggioField" property="dataUltimoAggio"/>
+            <textField id="descrizioneField" property="descrizione"/>
+            <textField id="descrizioneCasseField" property="descrizioneCasse"/>
+            <textField id="descrizioneSupplField" property="descrizioneSuppl"/>
+            <textField id="flagBilanciaField" property="flagBilancia"/>
+            <textField id="flagLiberoField" property="flagLibero"/>
+            <textField id="flagRegaloField" property="flagRegalo"/>
+            <textField id="fornitoreAbitualeField" property="fornitoreAbituale"/>
+            <textField id="listinoAcquistoField" property="listinoAcquisto"/>
+            <textField id="listinoVenditaField" property="listinoVendita"/>
+            <textField id="multiploRiordinoField" property="multiploRiordino"/>
+            <textField id="nRaccoltaPuntiField" property="nRaccoltaPunti"/>
+            <textField id="nomeImmagineField" property="nomeImmagine"/>
+            <textField id="noteField" property="note"/>
+            <textField id="numeroBolliniField" property="numeroBollini"/>
+            <textField id="numeroOffertaField" property="numeroOfferta"/>
+            <textField id="percScartoField" property="percScarto"/>
+            <textField id="pesoLordoField" property="pesoLordo"/>
+
+                </formLayout>
+            </vbox>
+
+            <vbox id="terzaDivisione" classNames="contrast-panel">
+                <h3 text="Terza divisione"/>
+                <formLayout id="Info3" dataContainer="artDc">
+            <textField id="scontoBaseField" property="scontoBase"/>
+            <textField id="tipoFrontaliniField" property="tipoFrontalini"/>
+            <textField id="tipoOffertaField" property="tipoOfferta"/>
+            <textField id="umConfezioneField" property="umConfezione"/>
+            <textField id="umPesoLordoField" property="umPesoLordo"/>
+            <textField id="umPrimariaField" property="umPrimaria"/>
+            <textField id="umSecondariaField" property="umSecondaria"/>
+            <dateTimePicker id="updateTsField" property="updateTs"/>
+            <textField id="updatedByField" property="updatedBy"/>
+            <textField id="versionField" property="version"/>
+                    <textField id="prezzoConsField" property="prezzoCons"/>
+                    <textField id="quantMultipackField" property="quantMultipack"/>
+                    <textField id="ricarPrezzoField" property="ricarPrezzo"/>
+                </formLayout>
+            </vbox>
+        </div>
+
+        <hbox classNames="contrast-panel" width="100%">
+        <hbox id="detailActions" >
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+        </hbox>
+    </layout>
+</view>

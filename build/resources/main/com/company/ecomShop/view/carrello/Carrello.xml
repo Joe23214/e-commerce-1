@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://carrello.title">
+
+    <data>
+        <collection id="carrelloRigaDc" class="com.company.ecomShop.entity.CarrelloRiga">
+            <loader id="carrelloRigaDl">
+                <query>
+                    <![CDATA[
+                        select cr from CarrelloRiga cr
+                        join Carrello c on cr.id.idOrdine = c.idOrdine
+                        where c.utente = :utente and c.dataOra is null
+                    ]]>
+                </query>
+            </loader>
+        </collection>
+
+    </data>
+
+    <layout>
+        <!-- Navbar -->
+    <!--    <div id="navbar" css="width: 100%; height: 60px; border-bottom: 1px solid #ccc; display: flex; align-items: center;">
+            &lt;!&ndash; NAVBAR &ndash;&gt;
+            <div id="header" classNames="header" css="padding: 10px; border-bottom: 1px solid #ccc;">
+                <div classNames="navigazione"
+                     css="display: flex; justify-content: space-between; align-items: center;">
+                    <div classNames="contenitoreLogo">
+                        <image id="logo" classNames="logo"  />
+                    </div>
+                    <div id="authButton" classNames="authButtons" css="display: flex; gap: 10px;">
+                        <button id="logOut" text="msg://Log Out" classNames="authButton"/>
+                        <button id="accedi" text="msg://Accedi" classNames="authButton"/>
+                        <button id="registrati" text="msg://Registrati" classNames="authButton"/>
+                        <button id="Home" text="msg://Home" classNames="authButton" autofocus="true"/>
+                        <hbox id="socialicons1"/>
+                        <button id="CarrelloIcona" icon="CART" visible="false"
+                                css="background-color: #5abd84; color:white;"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+--><div id="header" classNames="header">
+        <div classNames="navigazione">
+            <!-- Logo -->
+            <div classNames="contenitoreLogo">
+                <image id="logo" classNames="logo"/>
+            </div>
+            <button id="menuToggle1" css="background-color: #5abd84; color:white;" visible="false" classNames="authButtons" text="☰"/>
+            <!-- Bottoni -->
+            <div id="authButton" classNames="authButtons">
+                <button id="logOut" text="msg://Log Out" classNames="authButton"/>
+                <button id="accedi" text="msg://Accedi" classNames="authButton"/>
+                <button id="registrati" text="msg://Registrati" classNames="authButton"/>
+                <button id="Home" text="msg://Home" classNames="authButton" autofocus="true"/>
+                <hbox width="100%" id="socialicons1"/>
+                <button id="promoBottone" text="msg://I miei coupon" icon="vaadin:ticket" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                <button id="CarrelloIcona" classNames="CarrelloIcona" text="msg://Il mio carrello" icon="CART" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                <button id="adminHamburger" text="☰" visible="false"  css="cursor:pointer; font-size:20px; background-color: #5abd84; color:white;" />
+                <vbox id="adminMenu" visible="false" css=" position: absolute; top: 15%; left:50%;background-color: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; width:50%">
+                    <button id="invioNotifiche" text="msg://Invia le notifiche agli utenti" icon="vaadin:file-sound" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                    <button id="UtentiRegistrati" text="msg://Utenti Registrati" icon="vaadin:user" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                    <button id="configEcom" text="msg://Impostazioni" icon="vaadin:controller" css="cursor: pointer; background-color: #5abd84; color:white; width:100%;" />
+                </vbox>
+            </div>
+        </div>
+    </div>
+
+        <!-- &lt;!&ndash; Banner &ndash;&gt;
+         <div id="banner" css="width: 100%; height: 200px; margin: 20px auto; max-width: 1200px; background-color: #f0f0f0;">
+         </div>-->
+        <div id="banner"
+             css="width: 80%; max-width: 1000px; height: 300px; margin: 40px auto; background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        </div>
+
+
+
+
+
+
+        <!-- Carrello contenitore -->
+        <div id="carrelloContainer" css="width: 100%; max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px;">
+
+            <!-- Intestazione -->
+            <div id="intestazione" css="display: flex; font-weight: 700; border-bottom: 2px solid #ccc; padding-bottom: 10px;">
+                <div css="flex: 0 0 80px;">&#160;</div>
+                <div css="flex: 1 1 auto; margin-left:100px;" id="desc" text="DESCRIZIONE"></div>
+                <div css="flex: 0 0 100px; text-align: left; margin-right:100px;" id="prez" text="PREZZO"></div>
+                <div css="flex: 0 0 140px; text-align: center; margin-right:100px;" id="quant" text="QUANTITÀ"></div>
+                <div css="flex: 0 0 140px; text-align: center;margin-right:40px;" id="um" text="UNITA' DI MISURA"></div>
+                <div css="flex: 0 0 100px; text-align: right;"  id="tot" text="TOTALE"></div>
+                <div css="flex: 0 0 50px;">&#160;</div>
+            </div>
+
+            <!-- Virtual List scrollabile -->
+            <div css="height: 300px; overflow-y: auto;">
+                <virtualList id="CartItemList" width="100%" height="100%" itemsContainer="carrelloRigaDc">
+                    <fragmentRenderer class="com.company.ecomShop.view.fragmentcarrello.Fragmentcarrello"/>
+                </virtualList>
+            </div>
+            <!-- Totale -->
+            <hbox justifyContent="AROUND">
+                <div css=" margin-top:15px; border-top: 2px solid #ccc;">
+                    <button  id="svuotaCarrello" css="font-size: 18px; color: #ecf0f1; background-color:red;" text="Svuota carrello" ></button>
+                </div>
+                <div css=" margin-top: 20px; border-top: 2px solid #ccc;">
+                    <span css="font-weight: bold; font-size: 18px; margin-right: 10px;" text="Totale:"></span>
+                    <textField readOnly="true" id="totaleLabel" css="font-size: 18px; color: #ecf0f1; background-color: #5abd84;"/>
+                </div>
+            </hbox>
+
+        </div>
+
+        <h2 text="msg://Dati per l'acquisto" ></h2>
+        <formLayout id="datiConsegnaLayout" css="margin-top: 20px; gap: 15px;">
+
+            <!-- Selezione ritiro/consegna -->
+
+            <comboBox required="true" id="tipoConsegnaField" label="Ritiro / Consegna"/>
+
+            <!-- Campo visibile solo se ritiro PDV -->
+            <comboBox required="true" id="puntoVenditaField" label="Punto di ritiro" visible="false"/>
+
+            <!-- Fascia oraria (solo per ritiro PDV) -->
+            <comboBox  required="true" id="fasciaOrariaField" label="Fascia oraria ritiro" visible="false"/>
+
+            <!-- Campi indirizzo (visibili solo per consegna) -->
+            <textField required="true" id="nazioneField" value="Italia" label="Nazione" visible="false"/>
+            <textField required="true" id="regioneField" value="Puglia" label="Regione" visible="false"/>
+            <textField required="true" id="provinciaField" value="Bari" label="Provincia" visible="false"/>
+            <textField required="true" id="cittaField" value="Bari" label="Città" visible="false"></textField>
+            <textField required="true" id="capField" label="CAP" visible="false"/>
+            <textField required="true" id="viaField" label="Via" visible="false"/>
+            <textField required="true" id="civicoField" label="Civico" visible="false"/>
+            <textField  id="citofonoField" label="Citofono" visible="false"/>
+            <textField  id="scalaField" label="Scala" visible="false"/>
+            <textField  id="pianoField" label="Piano" visible="false"/>
+
+            <!-- Note -->
+            <textArea height="100px" width="250px" id="noteField" label="Note aggiuntive"/>
+            <textField label="Mail" required="true" id="mailfield" ></textField>
+            <!-- Tipo di pagamento -->
+            <comboBox required="true" id="tipoPagamentoField" label="Tipo di pagamento"/>
+        </formLayout>
+        <button id="confermaOrdine" alignSelf="CENTER" css="margin-top:75px;font-size: 18px;margin-bottom:75px; color: #ecf0f1; background-color: #5abd84;" text="Conferma ordine" ></button>
+
+        <!-- Footer -->
+        <div id="piede" classNames="footer"/>
+    </layout>
+</view>

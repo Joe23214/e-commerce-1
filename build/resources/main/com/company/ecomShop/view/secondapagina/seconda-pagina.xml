@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view" xmlns:search="http://jmix.io/schema/search/ui"
+      title="msg://secondaPagina.title">
+    <data>
+
+
+
+        <collection id="articoliClassificazionisDc"
+                    class="com.company.ecomShop.entity.ArticoliClassificazioni">
+            <loader id="articoliClassificazionisDl" readOnly="true"/>
+        </collection>
+
+
+
+    </data>
+    <layout>
+        <!-- Layout principale -->
+<!--        <p  alignSelf="CENTER"  text="msg:// listino 3 : sono i prezzi compreso iva a cartone . Listino 2 : sono i prezzi compreso iva per ordini di minimo 10 cartoni . ( questo quando si fa accesso per partita iva)"/>-->
+        <div id="header" classNames="header">
+            <div classNames="navigazione">
+                <div classNames="contenitoreLogo">
+                    <image id="logo" classNames="logo"  />
+                </div>
+                <div id="bottoneToggle">
+                    <button id="menuToggle" text="msg://Categorie" classNames="menuToggle"/>
+                    <!--                    </div>-->
+<!--                    <div classNames="contenitoreLogo">-->
+<!--                        <image id="logo" classNames="logo"  />-->
+<!--                    </div>-->
+                </div>
+                <button id="menuToggle1" visible="false" css="background-color: #5abd84; color:white;" classNames="authButtons" text="☰"/>
+
+                <!-- Barra di ricerca -->
+<!--                <div id="searchBox" classNames="searchBox">-->
+<!--                    <textField id="searchField" maxWidth="50%" classNames="searchField"  placeholder="Cerca..." />-->
+<!--                </div>-->
+
+                <!-- Pulsanti Accedi e Registrati -->
+                <div id="authButton" classNames="authButtons">
+                    <button id="logOut" visible="false" text="msg://Log Out" classNames="authButton"/>
+                    <button id="accedi" text="msg://Accedi" classNames="authButton"/>
+                    <button id="registrati" text="msg://Registrati" classNames="authButton"/>
+                    <button  id="Home" text="msg://Home" classNames="authButton" autofocus="true"/>
+<!--                    <button text="msg://About" classNames="authButton"/>-->
+                    <hbox width="100%" id="socialicons1"/>
+                    <button id="promoBottone" text="msg://I miei coupon" icon="vaadin:ticket" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                    <button id="CarrelloIcona" classNames="CarrelloIcona" text="msg://Il mio carrello" icon="CART" visible="false" css="cursor: pointer; background-color: #5abd84; color:white;" ></button>
+                    <button id="adminHamburger" text="☰" visible="false"  css="cursor:pointer; font-size:20px; background-color: #5abd84; color:white;" />
+                    <vbox id="adminMenu" visible="false" css=" position: absolute; top: 15%; left:50%;background-color: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; width:50%">
+                        <button id="invioNotifiche" text="msg://Invia le notifiche agli utenti" icon="vaadin:file-sound" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                        <button id="UtentiRegistrati" text="msg://Utenti Registrati" icon="vaadin:user" css="cursor: pointer; background-color: #5abd84; color:white; width:100%; margin-bottom:5px;" />
+                        <button id="configEcom" text="msg://Impostazioni" icon="vaadin:controller" css="cursor: pointer; background-color: #5abd84; color:white; width:100%;" />
+                    </vbox>
+                </div>
+            </div>
+
+            <!-- Menu di navigazione -->
+
+        </div>
+        <formLayout id="idDiv">
+            <div id="menuSide" css="    width: calc(99.9% + 0rem);
+    height: -webkit-fill-available;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* overflow-y: scroll; */
+    margin-right: 0px;" height="100%" width="100%">
+
+            </div>
+
+        </formLayout>
+        <div id="paginator" visible="false" alignSelf="CENTER">
+
+
+            <icon id="icon" icon="vaadin:angle-double-left"/>
+            <icon id="icon_1" icon="vaadin:angle-left"/>
+            <textField id="idPagina" enabled="false"/>
+            <textField id="idPagineTot" enabled="false"/>
+            <icon id="icon_2" icon="vaadin:angle-right"/>
+            <icon id="icon_3" icon="vaadin:angle-double-right"/>
+
+        </div>
+        <div id="paginator1" visible="false" alignSelf="CENTER">
+
+            <icon id="icon1" icon="vaadin:angle-double-left"/>
+            <icon id="icon1_1" icon="vaadin:angle-left"/>
+            <textField id="idPagina1" enabled="false"/>
+            <textField id="idPagine1Tot" enabled="false"/>
+            <icon id="icon1_2" icon="vaadin:angle-right"/>
+            <icon id="icon1_3" icon="vaadin:angle-double-right"/>
+
+        </div>
+
+
+        <div id="piede" classNames="footer"/>
+
+
+    </layout>
+</view>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://marketnewstoreArtImgDetailView.title"
+      focusComponent="form">
+    <data>
+        <instance id="marketnewstoreArtImgDc"
+                  class="com.company.ecomShop.entity.MarketnewstoreArtImg">
+            <fetchPlan extends="_base">
+                <property name="codiceArticolo"/>
+                <property name="artImgPrincipale" fetchPlan="_instance_name"/>
+            </fetchPlan>
+            <loader id="marketnewstoreArtImgDl"/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="marketnewstoreArtImgDc">
+            <responsiveSteps>
+                <responsiveStep minWidth="0" columns="1"/>
+                <responsiveStep minWidth="40em" columns="2"/>
+            </responsiveSteps>
+            <textField id="codiceArticoloField" property="codiceArticolo"/>
+            <entityPicker id="artImgPrincipaleField" property="artImgPrincipale">
+                <actions>
+                    <action id="entityLookup" type="entity_lookup"/>
+                    <action id="entityClear" type="entity_clear"/>
+                </actions>
+            </entityPicker>
+        </formLayout>
+        <hbox id="detailActions">
+            <button id="saveAndCloseButton" action="saveAction"/>
+            <button id="closeButton" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

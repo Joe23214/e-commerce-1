@@ -1,0 +1,8 @@
+<fetchPlans xmlns="http://jmix.io/schema/core/fetch-plans">
+
+
+    <fetchPlan entity="MarketnewstoreArtImg" name="marketnewstoreArtImg-fetch-plan" extends="_local">
+        <property name="artImgPrincipale" fetchPlan="_base"/>
+        <property name="sysFile" fetchPlan="_local"/>
+    </fetchPlan>
+</fetchPlans>
